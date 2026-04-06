@@ -1,0 +1,289 @@
+category,model1,model2,jaccard,shared_answers,domain,difficulty
+Olympic sport,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],sports,easy
+Olympic sport,claude-sonnet-4-5,gpt-4.1,0.6666666666666666,"['handball', 'team handball']",sports,easy
+Olympic sport,claude-sonnet-4-5,llama-4-maverick,0.0,[],sports,easy
+Olympic sport,gemini-2.0-flash,gpt-4.1,0.0,[],sports,easy
+Olympic sport,gemini-2.0-flash,llama-4-maverick,0.0,[],sports,easy
+Olympic sport,gpt-4.1,llama-4-maverick,0.0,[],sports,easy
+animated TV show,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],film,easy
+animated TV show,claude-sonnet-4-5,gpt-4.1,0.0,[],film,easy
+animated TV show,claude-sonnet-4-5,llama-4-maverick,0.0,[],film,easy
+animated TV show,claude-sonnet-4-5,qwen3-235b,0.6666666666666666,"['gargoyles', 'clone high']",film,easy
+animated TV show,gemini-2.0-flash,gpt-4.1,0.25,['owl house'],film,easy
+animated TV show,gemini-2.0-flash,llama-4-maverick,0.0,[],film,easy
+animated TV show,gemini-2.0-flash,qwen3-235b,0.0,[],film,easy
+animated TV show,gpt-4.1,llama-4-maverick,0.0,[],film,easy
+animated TV show,gpt-4.1,qwen3-235b,0.0,[],film,easy
+animated TV show,llama-4-maverick,qwen3-235b,0.0,[],film,easy
+basketball player of all time,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],sports,easy
+basketball player of all time,claude-sonnet-4-5,gpt-4.1,0.0,[],sports,easy
+basketball player of all time,claude-sonnet-4-5,llama-4-maverick,0.0,[],sports,easy
+basketball player of all time,gemini-2.0-flash,gpt-4.1,0.5,['sidney moncrief'],sports,easy
+basketball player of all time,gemini-2.0-flash,llama-4-maverick,0.0,[],sports,easy
+basketball player of all time,gpt-4.1,llama-4-maverick,0.0,[],sports,easy
+board game,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],sports,medium
+board game,claude-sonnet-4-5,gpt-4.1,0.3333333333333333,['tigris & euphrates'],sports,medium
+board game,claude-sonnet-4-5,llama-4-maverick,0.0,[],sports,medium
+board game,gemini-2.0-flash,gpt-4.1,0.0,[],sports,medium
+board game,gemini-2.0-flash,llama-4-maverick,0.0,[],sports,medium
+board game,gpt-4.1,llama-4-maverick,0.0,[],sports,medium
+branch of philosophy,claude-sonnet-4-5,gemini-2.0-flash,0.5,['philosophy of technology'],general,hard
+branch of philosophy,claude-sonnet-4-5,gpt-4.1,0.3333333333333333,['philosophy of technology'],general,hard
+branch of philosophy,claude-sonnet-4-5,llama-4-maverick,0.0,[],general,hard
+branch of philosophy,gemini-2.0-flash,gpt-4.1,0.25,['philosophy of technology'],general,hard
+branch of philosophy,gemini-2.0-flash,llama-4-maverick,0.0,[],general,hard
+branch of philosophy,gpt-4.1,llama-4-maverick,0.0,[],general,hard
+career path,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],general,easy
+career path,claude-sonnet-4-5,gpt-4.1,0.0,[],general,easy
+career path,claude-sonnet-4-5,llama-4-maverick,0.25,['actuary'],general,easy
+career path,gemini-2.0-flash,gpt-4.1,0.0,[],general,easy
+career path,gemini-2.0-flash,llama-4-maverick,0.0,[],general,easy
+career path,gpt-4.1,llama-4-maverick,0.0,[],general,easy
+cheese,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],food,medium
+cheese,claude-sonnet-4-5,gpt-4.1,0.0,[],food,medium
+cheese,claude-sonnet-4-5,llama-4-maverick,0.3333333333333333,['gruyère'],food,medium
+cheese,gemini-2.0-flash,gpt-4.1,0.0,[],food,medium
+cheese,gemini-2.0-flash,llama-4-maverick,0.0,[],food,medium
+cheese,gpt-4.1,llama-4-maverick,0.0,[],food,medium
+chess opening,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],sports,hard
+chess opening,claude-sonnet-4-5,gpt-4.1,0.2,['london system'],sports,hard
+chess opening,claude-sonnet-4-5,llama-4-maverick,0.0,[],sports,hard
+chess opening,gemini-2.0-flash,gpt-4.1,0.0,[],sports,hard
+chess opening,gemini-2.0-flash,llama-4-maverick,0.25,['scotch game'],sports,hard
+chess opening,gpt-4.1,llama-4-maverick,0.0,[],sports,hard
+city to visit in Europe,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],travel,easy
+city to visit in Europe,claude-sonnet-4-5,gpt-4.1,0.0,[],travel,easy
+city to visit in Europe,claude-sonnet-4-5,llama-4-maverick,0.0,[],travel,easy
+city to visit in Europe,gemini-2.0-flash,gpt-4.1,0.0,[],travel,easy
+city to visit in Europe,gemini-2.0-flash,llama-4-maverick,0.0,[],travel,easy
+city to visit in Europe,gpt-4.1,llama-4-maverick,0.5,"['ljubljana', 'ghent']",travel,easy
+classical composer,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],music,easy
+classical composer,claude-sonnet-4-5,gpt-4.1,0.0,[],music,easy
+classical composer,claude-sonnet-4-5,llama-4-maverick,0.0,[],music,easy
+classical composer,claude-sonnet-4-5,qwen3-235b,0.2,['carl philipp emanuel bach'],music,easy
+classical composer,gemini-2.0-flash,gpt-4.1,0.0,[],music,easy
+classical composer,gemini-2.0-flash,llama-4-maverick,0.0,[],music,easy
+classical composer,gemini-2.0-flash,qwen3-235b,0.0,[],music,easy
+classical composer,gpt-4.1,llama-4-maverick,0.0,[],music,easy
+classical composer,gpt-4.1,qwen3-235b,0.0,[],music,easy
+classical composer,llama-4-maverick,qwen3-235b,0.0,[],music,easy
+coffee brewing method,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],food,medium
+coffee brewing method,claude-sonnet-4-5,gpt-4.1,0.0,[],food,medium
+coffee brewing method,claude-sonnet-4-5,llama-4-maverick,0.0,[],food,medium
+coffee brewing method,gemini-2.0-flash,gpt-4.1,0.5,['aeropress'],food,medium
+coffee brewing method,gemini-2.0-flash,llama-4-maverick,0.0,[],food,medium
+coffee brewing method,gpt-4.1,llama-4-maverick,0.0,[],food,medium
+country for solo travel,claude-sonnet-4-5,gemini-2.0-flash,0.3333333333333333,['georgia'],travel,medium
+country for solo travel,claude-sonnet-4-5,gpt-4.1,0.6666666666666666,"['slovenia', 'georgia']",travel,medium
+country for solo travel,claude-sonnet-4-5,llama-4-maverick,0.3333333333333333,['slovenia'],travel,medium
+country for solo travel,gemini-2.0-flash,gpt-4.1,0.5,['georgia'],travel,medium
+country for solo travel,gemini-2.0-flash,llama-4-maverick,0.0,[],travel,medium
+country for solo travel,gpt-4.1,llama-4-maverick,0.5,['slovenia'],travel,medium
+cuisine,claude-sonnet-4-5,gemini-2.0-flash,0.25,['peruvian'],food,easy
+cuisine,claude-sonnet-4-5,gpt-4.1,0.25,['georgian'],food,easy
+cuisine,claude-sonnet-4-5,llama-4-maverick,0.25,['georgian'],food,easy
+cuisine,gemini-2.0-flash,gpt-4.1,0.0,[],food,easy
+cuisine,gemini-2.0-flash,llama-4-maverick,0.0,[],food,easy
+cuisine,gpt-4.1,llama-4-maverick,0.3333333333333333,['georgian'],food,easy
+documentary film,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],film,medium
+documentary film,claude-sonnet-4-5,gpt-4.1,0.0,[],film,medium
+documentary film,claude-sonnet-4-5,llama-4-maverick,0.0,[],film,medium
+documentary film,claude-sonnet-4-5,qwen3-235b,0.2,['act of killing'],film,medium
+documentary film,gemini-2.0-flash,gpt-4.1,0.0,[],film,medium
+documentary film,gemini-2.0-flash,llama-4-maverick,0.0,[],film,medium
+documentary film,gemini-2.0-flash,qwen3-235b,0.0,[],film,medium
+documentary film,gpt-4.1,llama-4-maverick,0.0,[],film,medium
+documentary film,gpt-4.1,qwen3-235b,0.2,['king of kong: a fistful of quarters'],film,medium
+documentary film,llama-4-maverick,qwen3-235b,0.0,[],film,medium
+era in human history,claude-sonnet-4-5,gemini-2.0-flash,0.25,['bronze age'],general,medium
+era in human history,claude-sonnet-4-5,gpt-4.1,0.0,[],general,medium
+era in human history,claude-sonnet-4-5,llama-4-maverick,0.0,[],general,medium
+era in human history,gemini-2.0-flash,gpt-4.1,0.0,[],general,medium
+era in human history,gemini-2.0-flash,llama-4-maverick,0.0,[],general,medium
+era in human history,gpt-4.1,llama-4-maverick,0.0,[],general,medium
+film noir,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],film,hard
+film noir,claude-sonnet-4-5,gpt-4.1,0.0,[],film,hard
+film noir,claude-sonnet-4-5,llama-4-maverick,0.3333333333333333,['big heat'],film,hard
+film noir,claude-sonnet-4-5,qwen3-235b,0.0,[],film,hard
+film noir,gemini-2.0-flash,gpt-4.1,0.2,['night and the city'],film,hard
+film noir,gemini-2.0-flash,llama-4-maverick,0.25,['out of the past'],film,hard
+film noir,gemini-2.0-flash,qwen3-235b,0.0,[],film,hard
+film noir,gpt-4.1,llama-4-maverick,0.0,[],film,hard
+film noir,gpt-4.1,qwen3-235b,0.2,['detour'],film,hard
+film noir,llama-4-maverick,qwen3-235b,0.0,[],film,hard
+graphic novel,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],literature,medium
+graphic novel,claude-sonnet-4-5,gpt-4.1,0.5,['daytripper'],literature,medium
+graphic novel,claude-sonnet-4-5,llama-4-maverick,0.0,[],literature,medium
+graphic novel,gemini-2.0-flash,gpt-4.1,0.0,[],literature,medium
+graphic novel,gemini-2.0-flash,llama-4-maverick,0.0,[],literature,medium
+graphic novel,gpt-4.1,llama-4-maverick,0.0,[],literature,medium
+hip-hop producer,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],music,medium
+hip-hop producer,claude-sonnet-4-5,gpt-4.1,0.25,['j dilla'],music,medium
+hip-hop producer,claude-sonnet-4-5,llama-4-maverick,0.5,['j dilla'],music,medium
+hip-hop producer,claude-sonnet-4-5,qwen3-235b,0.0,[],music,medium
+hip-hop producer,gemini-2.0-flash,gpt-4.1,0.25,['madlib'],music,medium
+hip-hop producer,gemini-2.0-flash,llama-4-maverick,0.0,[],music,medium
+hip-hop producer,gemini-2.0-flash,qwen3-235b,0.25,['madlib'],music,medium
+hip-hop producer,gpt-4.1,llama-4-maverick,0.3333333333333333,['j dilla'],music,medium
+hip-hop producer,gpt-4.1,qwen3-235b,0.2,['madlib'],music,medium
+hip-hop producer,llama-4-maverick,qwen3-235b,0.0,[],music,medium
+historical site,claude-sonnet-4-5,gemini-2.0-flash,0.5,['göbekli tepe'],travel,medium
+historical site,claude-sonnet-4-5,gpt-4.1,0.3333333333333333,['göbekli tepe'],travel,medium
+historical site,claude-sonnet-4-5,llama-4-maverick,0.0,[],travel,medium
+historical site,gemini-2.0-flash,gpt-4.1,0.25,['göbekli tepe'],travel,medium
+historical site,gemini-2.0-flash,llama-4-maverick,0.0,[],travel,medium
+historical site,gpt-4.1,llama-4-maverick,0.0,[],travel,medium
+hobby for adults,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],general,easy
+hobby for adults,claude-sonnet-4-5,gpt-4.1,0.3333333333333333,['birdwatching'],general,easy
+hobby for adults,claude-sonnet-4-5,llama-4-maverick,0.0,[],general,easy
+hobby for adults,gemini-2.0-flash,gpt-4.1,0.0,[],general,easy
+hobby for adults,gemini-2.0-flash,llama-4-maverick,0.0,[],general,easy
+hobby for adults,gpt-4.1,llama-4-maverick,0.0,[],general,easy
+horror film director,claude-sonnet-4-5,gemini-2.0-flash,0.5,['mike flanagan'],film,medium
+horror film director,claude-sonnet-4-5,gpt-4.1,0.0,[],film,medium
+horror film director,claude-sonnet-4-5,llama-4-maverick,0.0,[],film,medium
+horror film director,claude-sonnet-4-5,qwen3-235b,0.0,[],film,medium
+horror film director,gemini-2.0-flash,gpt-4.1,0.25,['larry fessenden'],film,medium
+horror film director,gemini-2.0-flash,llama-4-maverick,0.0,[],film,medium
+horror film director,gemini-2.0-flash,qwen3-235b,0.0,[],film,medium
+horror film director,gpt-4.1,llama-4-maverick,0.0,[],film,medium
+horror film director,gpt-4.1,qwen3-235b,0.0,[],film,medium
+horror film director,llama-4-maverick,qwen3-235b,0.25,['lucio fulci'],film,medium
+invention of the 20th century,claude-sonnet-4-5,gemini-2.0-flash,0.25,['transistor'],tech,easy
+invention of the 20th century,claude-sonnet-4-5,gpt-4.1,0.25,['transistor'],tech,easy
+invention of the 20th century,claude-sonnet-4-5,llama-4-maverick,0.0,[],tech,easy
+invention of the 20th century,gemini-2.0-flash,gpt-4.1,0.2,['transistor'],tech,easy
+invention of the 20th century,gemini-2.0-flash,llama-4-maverick,0.0,[],tech,easy
+invention of the 20th century,gpt-4.1,llama-4-maverick,0.0,[],tech,easy
+island destination,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],travel,medium
+island destination,claude-sonnet-4-5,gpt-4.1,0.0,[],travel,medium
+island destination,claude-sonnet-4-5,llama-4-maverick,0.0,[],travel,medium
+island destination,gemini-2.0-flash,gpt-4.1,0.0,[],travel,medium
+island destination,gemini-2.0-flash,llama-4-maverick,0.0,[],travel,medium
+island destination,gpt-4.1,llama-4-maverick,0.0,[],travel,medium
+jazz album,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],music,medium
+jazz album,claude-sonnet-4-5,gpt-4.1,0.0,[],music,medium
+jazz album,claude-sonnet-4-5,llama-4-maverick,0.2,['black saint and the sinner lady'],music,medium
+jazz album,claude-sonnet-4-5,qwen3-235b,0.0,[],music,medium
+jazz album,gemini-2.0-flash,gpt-4.1,0.0,[],music,medium
+jazz album,gemini-2.0-flash,llama-4-maverick,0.0,[],music,medium
+jazz album,gemini-2.0-flash,qwen3-235b,0.0,[],music,medium
+jazz album,gpt-4.1,llama-4-maverick,0.0,[],music,medium
+jazz album,gpt-4.1,qwen3-235b,0.0,[],music,medium
+jazz album,llama-4-maverick,qwen3-235b,0.0,[],music,medium
+life skill to learn,claude-sonnet-4-5,gemini-2.0-flash,1.0,['active listening'],general,easy
+life skill to learn,claude-sonnet-4-5,gpt-4.1,1.0,['active listening'],general,easy
+life skill to learn,claude-sonnet-4-5,llama-4-maverick,0.0,[],general,easy
+life skill to learn,gemini-2.0-flash,gpt-4.1,1.0,['active listening'],general,easy
+life skill to learn,gemini-2.0-flash,llama-4-maverick,0.0,[],general,easy
+life skill to learn,gpt-4.1,llama-4-maverick,0.0,[],general,easy
+mathematical theorem,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],tech,hard
+mathematical theorem,claude-sonnet-4-5,gpt-4.1,0.2,['cayley-hamilton theorem'],tech,hard
+mathematical theorem,claude-sonnet-4-5,llama-4-maverick,0.0,[],tech,hard
+mathematical theorem,gemini-2.0-flash,gpt-4.1,0.0,[],tech,hard
+mathematical theorem,gemini-2.0-flash,llama-4-maverick,0.0,[],tech,hard
+mathematical theorem,gpt-4.1,llama-4-maverick,0.0,[],tech,hard
+national park in the United States,claude-sonnet-4-5,gemini-2.0-flash,0.5,['great basin national park'],travel,medium
+national park in the United States,claude-sonnet-4-5,gpt-4.1,1.0,['great basin national park'],travel,medium
+national park in the United States,claude-sonnet-4-5,llama-4-maverick,0.0,[],travel,medium
+national park in the United States,gemini-2.0-flash,gpt-4.1,0.5,['great basin national park'],travel,medium
+national park in the United States,gemini-2.0-flash,llama-4-maverick,0.0,[],travel,medium
+national park in the United States,gpt-4.1,llama-4-maverick,0.0,[],travel,medium
+non-fiction book,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],literature,medium
+non-fiction book,claude-sonnet-4-5,gpt-4.1,0.0,[],literature,medium
+non-fiction book,claude-sonnet-4-5,llama-4-maverick,0.0,[],literature,medium
+non-fiction book,gemini-2.0-flash,gpt-4.1,0.0,[],literature,medium
+non-fiction book,gemini-2.0-flash,llama-4-maverick,0.0,[],literature,medium
+non-fiction book,gpt-4.1,llama-4-maverick,0.0,[],literature,medium
+novel of the 21st century,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],literature,medium
+novel of the 21st century,claude-sonnet-4-5,gpt-4.1,0.0,[],literature,medium
+novel of the 21st century,claude-sonnet-4-5,llama-4-maverick,0.0,[],literature,medium
+novel of the 21st century,claude-sonnet-4-5,qwen3-235b,0.0,[],literature,medium
+novel of the 21st century,gemini-2.0-flash,gpt-4.1,0.0,[],literature,medium
+novel of the 21st century,gemini-2.0-flash,llama-4-maverick,0.0,[],literature,medium
+novel of the 21st century,gemini-2.0-flash,qwen3-235b,0.0,[],literature,medium
+novel of the 21st century,gpt-4.1,llama-4-maverick,0.0,[],literature,medium
+novel of the 21st century,gpt-4.1,qwen3-235b,0.0,[],literature,medium
+novel of the 21st century,llama-4-maverick,qwen3-235b,0.2,['windup girl'],literature,medium
+open-source software project,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],tech,medium
+open-source software project,claude-sonnet-4-5,gpt-4.1,0.0,[],tech,medium
+open-source software project,claude-sonnet-4-5,llama-4-maverick,0.0,[],tech,medium
+open-source software project,gemini-2.0-flash,gpt-4.1,0.0,[],tech,medium
+open-source software project,gemini-2.0-flash,llama-4-maverick,0.0,[],tech,medium
+open-source software project,gpt-4.1,llama-4-maverick,0.0,[],tech,medium
+poet,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],literature,easy
+poet,claude-sonnet-4-5,gpt-4.1,0.0,[],literature,easy
+poet,claude-sonnet-4-5,llama-4-maverick,0.0,[],literature,easy
+poet,gemini-2.0-flash,gpt-4.1,0.2,['edna st. vincent millay'],literature,easy
+poet,gemini-2.0-flash,llama-4-maverick,0.0,[],literature,easy
+poet,gpt-4.1,llama-4-maverick,0.0,[],literature,easy
+programming language,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],tech,easy
+programming language,claude-sonnet-4-5,gpt-4.1,0.2,['elixir'],tech,easy
+programming language,claude-sonnet-4-5,llama-4-maverick,0.0,[],tech,easy
+programming language,gemini-2.0-flash,gpt-4.1,0.0,[],tech,easy
+programming language,gemini-2.0-flash,llama-4-maverick,0.25,['prolog'],tech,easy
+programming language,gpt-4.1,llama-4-maverick,0.0,[],tech,easy
+rock band,claude-sonnet-4-5,gemini-2.0-flash,1.0,['big star'],music,easy
+rock band,claude-sonnet-4-5,gpt-4.1,0.3333333333333333,['big star'],music,easy
+rock band,claude-sonnet-4-5,llama-4-maverick,0.0,[],music,easy
+rock band,claude-sonnet-4-5,qwen3-235b,0.3333333333333333,['big star'],music,easy
+rock band,gemini-2.0-flash,gpt-4.1,0.3333333333333333,['big star'],music,easy
+rock band,gemini-2.0-flash,llama-4-maverick,0.0,[],music,easy
+rock band,gemini-2.0-flash,qwen3-235b,0.3333333333333333,['big star'],music,easy
+rock band,gpt-4.1,llama-4-maverick,0.0,[],music,easy
+rock band,gpt-4.1,qwen3-235b,0.2,['big star'],music,easy
+rock band,llama-4-maverick,qwen3-235b,0.0,[],music,easy
+sci-fi movie,claude-sonnet-4-5,gemini-2.0-flash,0.5,['gattaca'],film,easy
+sci-fi movie,claude-sonnet-4-5,gpt-4.1,0.0,[],film,easy
+sci-fi movie,claude-sonnet-4-5,llama-4-maverick,0.0,[],film,easy
+sci-fi movie,claude-sonnet-4-5,qwen3-235b,0.0,[],film,easy
+sci-fi movie,gemini-2.0-flash,gpt-4.1,0.0,[],film,easy
+sci-fi movie,gemini-2.0-flash,llama-4-maverick,0.0,[],film,easy
+sci-fi movie,gemini-2.0-flash,qwen3-235b,0.0,[],film,easy
+sci-fi movie,gpt-4.1,llama-4-maverick,0.0,[],film,easy
+sci-fi movie,gpt-4.1,qwen3-235b,0.2,['dark city'],film,easy
+sci-fi movie,llama-4-maverick,qwen3-235b,0.0,[],film,easy
+scientific discovery,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],tech,medium
+scientific discovery,claude-sonnet-4-5,gpt-4.1,0.0,[],tech,medium
+scientific discovery,claude-sonnet-4-5,llama-4-maverick,0.0,[],tech,medium
+scientific discovery,gemini-2.0-flash,gpt-4.1,0.0,[],tech,medium
+scientific discovery,gemini-2.0-flash,llama-4-maverick,0.0,[],tech,medium
+scientific discovery,gpt-4.1,llama-4-maverick,0.0,[],tech,medium
+short story writer,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],literature,medium
+short story writer,claude-sonnet-4-5,gpt-4.1,0.0,[],literature,medium
+short story writer,claude-sonnet-4-5,llama-4-maverick,0.2,['shirley jackson'],literature,medium
+short story writer,claude-sonnet-4-5,qwen3-235b,0.0,[],literature,medium
+short story writer,gemini-2.0-flash,gpt-4.1,0.0,[],literature,medium
+short story writer,gemini-2.0-flash,llama-4-maverick,0.0,[],literature,medium
+short story writer,gemini-2.0-flash,qwen3-235b,0.0,[],literature,medium
+short story writer,gpt-4.1,llama-4-maverick,0.0,[],literature,medium
+short story writer,gpt-4.1,qwen3-235b,0.0,[],literature,medium
+short story writer,llama-4-maverick,qwen3-235b,0.0,[],literature,medium
+singer-songwriter of the 2010s,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],music,medium
+singer-songwriter of the 2010s,claude-sonnet-4-5,gpt-4.1,0.0,[],music,medium
+singer-songwriter of the 2010s,claude-sonnet-4-5,llama-4-maverick,0.25,['julien baker'],music,medium
+singer-songwriter of the 2010s,claude-sonnet-4-5,qwen3-235b,0.0,[],music,medium
+singer-songwriter of the 2010s,gemini-2.0-flash,gpt-4.1,0.0,[],music,medium
+singer-songwriter of the 2010s,gemini-2.0-flash,llama-4-maverick,0.0,[],music,medium
+singer-songwriter of the 2010s,gemini-2.0-flash,qwen3-235b,0.25,['laura marling'],music,medium
+singer-songwriter of the 2010s,gpt-4.1,llama-4-maverick,0.2,['lucy dacus'],music,medium
+singer-songwriter of the 2010s,gpt-4.1,qwen3-235b,0.0,[],music,medium
+singer-songwriter of the 2010s,llama-4-maverick,qwen3-235b,0.0,[],music,medium
+spice,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],food,medium
+spice,claude-sonnet-4-5,gpt-4.1,0.5,['sumac'],food,medium
+spice,claude-sonnet-4-5,llama-4-maverick,0.0,[],food,medium
+spice,gemini-2.0-flash,gpt-4.1,0.0,[],food,medium
+spice,gemini-2.0-flash,llama-4-maverick,0.25,['grains of paradise'],food,medium
+spice,gpt-4.1,llama-4-maverick,0.0,[],food,medium
+vegetable,claude-sonnet-4-5,gemini-2.0-flash,0.25,['kohlrabi'],food,easy
+vegetable,claude-sonnet-4-5,gpt-4.1,0.25,['kohlrabi'],food,easy
+vegetable,claude-sonnet-4-5,llama-4-maverick,0.3333333333333333,['rutabaga'],food,easy
+vegetable,gemini-2.0-flash,gpt-4.1,0.3333333333333333,['kohlrabi'],food,easy
+vegetable,gemini-2.0-flash,llama-4-maverick,0.0,[],food,easy
+vegetable,gpt-4.1,llama-4-maverick,0.0,[],food,easy
+video game of the 2010s,claude-sonnet-4-5,gemini-2.0-flash,0.0,[],sports,medium
+video game of the 2010s,claude-sonnet-4-5,gpt-4.1,0.0,[],sports,medium
+video game of the 2010s,claude-sonnet-4-5,llama-4-maverick,0.0,[],sports,medium
+video game of the 2010s,gemini-2.0-flash,gpt-4.1,0.3333333333333333,['spec ops: the line'],sports,medium
+video game of the 2010s,gemini-2.0-flash,llama-4-maverick,0.0,[],sports,medium
+video game of the 2010s,gpt-4.1,llama-4-maverick,0.0,[],sports,medium

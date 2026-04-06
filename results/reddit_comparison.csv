@@ -1,0 +1,173 @@
+model,category,domain,difficulty,top_answer,reddit_picks,matches_reddit
+claude-sonnet-4-5,Olympic sport,sports,easy,handball,"['handball', 'table tennis', 'water polo', 'badminton', 'fencing']",True
+claude-sonnet-4-5,animated TV show,film,easy,clone high,"['The Owl House', 'Over the Garden Wall', 'Infinity Train', 'Sym-Bionic Titan', 'Final Space']",False
+claude-sonnet-4-5,basketball player of all time,sports,easy,chauncey billups,"['Sidney Moncrief', 'Manu Ginóbili', 'Bernard King', 'Detlef Schrempf', 'Chauncey Billups']",True
+claude-sonnet-4-5,board game,sports,medium,concordia,"['El Grande', 'Tigris & Euphrates', 'Concordia', 'Ra', 'The Crew: The Quest for Planet Nine']",True
+claude-sonnet-4-5,branch of philosophy,general,hard,philosophy of technology,"['Philosophy of language', 'Philosophy of mind', 'Aesthetics', 'Logic', 'Philosophy of science']",True
+claude-sonnet-4-5,career path,general,easy,actuary,"['trade jobs (electrician, plumber, welder, HVAC technician)', 'radiologic technologist/medical imaging', 'dental hygienist', 'supply chain/logistics', 'occupational therapy assistant']",False
+claude-sonnet-4-5,cheese,food,medium,gruyère,"['Havarti', 'Gruyère', 'Comté', 'Manchego', 'Jarlsberg']",True
+claude-sonnet-4-5,chess opening,sports,hard,london system,"['London System', 'Scandinavian Defense', ""Bird's Opening"", 'English Opening', 'Czech Pirc']",True
+claude-sonnet-4-5,city to visit in Europe,travel,easy,porto,"['Ljubljana', 'Porto', 'Budapest', 'Gdansk', 'Valencia']",True
+claude-sonnet-4-5,classical composer,music,easy,carl philipp emanuel bach,"['Nikolai Medtner', 'Mieczysław Weinberg', 'Carl Nielsen', 'Alexander Scriabin', 'Franz Schmidt']",True
+claude-sonnet-4-5,coffee brewing method,food,medium,french press,"['AeroPress', 'Clever Dripper', 'Moka Pot', 'Siphon/Vacuum Pot', 'French Press']",True
+claude-sonnet-4-5,country for solo travel,travel,medium,albania,"['Georgia', 'Slovenia', 'Taiwan', 'Portugal', 'Romania']",False
+claude-sonnet-4-5,cuisine,food,easy,ethiopian,"['Filipino', 'Peruvian', 'Ethiopian', 'Vietnamese', 'Turkish']",True
+claude-sonnet-4-5,documentary film,film,medium,senna,"['American Movie', 'The King of Kong: A Fistful of Quarters', 'Dear Zachary: A Letter to a Son About His Father', 'Dark Days', 'The Imposter']",False
+claude-sonnet-4-5,era in human history,general,medium,bronze age,"['The Islamic Golden Age', 'The Byzantine Empire', 'The Song Dynasty (China)', 'The Indus Valley Civilization', 'The Medieval Period (Middle Ages)']",False
+claude-sonnet-4-5,film noir,film,hard,third man,"['Night and the City', 'The Big Clock', 'Detour', 'In a Lonely Place', 'Pickup on South Street']",False
+claude-sonnet-4-5,graphic novel,literature,medium,daytripper,"['Daytripper', 'The Underwater Welder', 'The Arrival', 'Blacksad', 'Asterios Polyp']",True
+claude-sonnet-4-5,hip-hop producer,music,medium,j dilla,"['Madlib', 'El-P', 'DJ Quik', 'No I.D.', '9th Wonder']",False
+claude-sonnet-4-5,historical site,travel,medium,göbekli tepe,"['Hampi, India', 'Petra, Jordan', 'Angkor Wat, Cambodia', 'Cappadocia, Turkey', 'The Alhambra, Spain']",False
+claude-sonnet-4-5,hobby for adults,general,easy,birdwatching,"['birdwatching', 'journaling', 'puzzle solving', 'gardening', 'tabletop role-playing games']",True
+claude-sonnet-4-5,horror film director,film,medium,mike flanagan,"['Ti West', 'Mike Flanagan', 'Larry Fessenden', 'Karyn Kusama', 'Bob Clark']",True
+claude-sonnet-4-5,invention of the 20th century,tech,easy,transistor,"['Transistor', 'Shipping container', 'Barcode', 'Velcro', 'Duct tape']",True
+claude-sonnet-4-5,island destination,travel,medium,azores,"['Isle of Eigg, Scotland', 'Ischia, Italy', 'Azores, Portugal', 'Koh Lipe, Thailand', 'Sao Miguel, Portugal']",True
+claude-sonnet-4-5,jazz album,music,medium,speak no evil by wayne shorter,"['Andrew Hill - Point of Departure', 'Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2', 'Wayne Shorter - The All Seeing Eye', 'Sam Rivers - Contours', 'Booker Little - Out Front']",False
+claude-sonnet-4-5,life skill to learn,general,easy,active listening,"['listening', 'emotional intelligence', 'critical thinking', 'communication', 'personal finance management']",True
+claude-sonnet-4-5,mathematical theorem,tech,hard,cayley-hamilton theorem,"['Banach-Tarski Paradox', ""Noether's Theorem"", 'Brouwer Fixed Point Theorem', ""Cayley's Theorem"", ""Burnside's Lemma""]",False
+claude-sonnet-4-5,national park in the United States,travel,medium,great basin national park,"['Great Basin National Park', 'North Cascades National Park', 'Isle Royale National Park', 'Lassen Volcanic National Park', 'Congaree National Park']",True
+claude-sonnet-4-5,non-fiction book,literature,medium,discoverers by daniel j. boorstin,"['The Emperor of All Maladies by Siddhartha Mukherjee', ""Surely You're Joking, Mr. Feynman! by Richard Feynman"", 'The Gift of Fear by Gavin de Becker', 'Antifragile by Nassim Nicholas Taleb', 'The Righteous Mind by Jonathan Haidt']",False
+claude-sonnet-4-5,novel of the 21st century,literature,medium,luminaries by eleanor catton,"['Never Let Me Go by Kazuo Ishiguro', 'The Amazing Adventures of Kavalier & Clay by Michael Chabon', 'The Brief Wondrous Life of Oscar Wao by Junot Díaz', 'A Visit from the Goon Squad by Jennifer Egan', 'The Shadow of the Wind by Carlos Ruiz Zafón']",False
+claude-sonnet-4-5,open-source software project,tech,medium,rsync,"['mpv', 'Krita', 'qBittorrent', 'Syncthing', 'Gitea']",False
+claude-sonnet-4-5,poet,literature,easy,gerard manley hopkins,"['Philip Larkin', 'Mary Oliver', 'W. S. Merwin', 'Anne Carson', 'Louise Glück']",False
+claude-sonnet-4-5,programming language,tech,easy,elixir,"['Rust', 'Elixir', 'Julia', 'Lua', 'Clojure']",True
+claude-sonnet-4-5,rock band,music,easy,big star,"['King Crimson', 'The Replacements', 'Big Star', 'Thin Lizzy', 'Electric Light Orchestra']",True
+claude-sonnet-4-5,sci-fi movie,film,easy,gattaca,"['Sunshine', 'Moon', 'Gattaca', 'Edge of Tomorrow', 'Dredd']",True
+claude-sonnet-4-5,scientific discovery,tech,medium,discovery of telomerase and telomeres role in aging,"['CRISPR gene editing', 'The discovery of the microbiome', 'The Haber-Bosch process (synthetic ammonia production)', 'The discovery of penicillin/antibiotics', 'The Green Revolution (agricultural advancements)']",True
+claude-sonnet-4-5,short story writer,literature,medium,shirley jackson,"['John Cheever', 'Lucia Berlin', 'Mavis Gallant', 'Robert Aickman', 'Jean Rhys']",False
+claude-sonnet-4-5,singer-songwriter of the 2010s,music,medium,julien baker,"['James Blake', 'Mitski', 'Father John Misty', 'Sufjan Stevens', 'Phoebe Bridgers']",False
+claude-sonnet-4-5,spice,food,medium,sumac,"['sumac', 'smoked paprika', 'fennel seeds', 'asafoetida', 'cardamom']",True
+claude-sonnet-4-5,vegetable,food,easy,rutabaga,"['cabbage', 'rutabaga', 'parsnip', 'brussels sprouts', 'kohlrabi']",True
+claude-sonnet-4-5,video game of the 2010s,sports,medium,titanfall 2,"['Spec Ops: The Line', 'Sleeping Dogs', 'Titanfall 2', 'Enslaved: Odyssey to the West', 'Alan Wake']",True
+gemini-2.0-flash,Olympic sport,sports,easy,racewalking,"['handball', 'table tennis', 'water polo', 'badminton', 'fencing']",False
+gemini-2.0-flash,animated TV show,film,easy,owl house,"['The Owl House', 'Over the Garden Wall', 'Infinity Train', 'Sym-Bionic Titan', 'Final Space']",True
+gemini-2.0-flash,basketball player of all time,sports,easy,sidney moncrief,"['Sidney Moncrief', 'Manu Ginóbili', 'Bernard King', 'Detlef Schrempf', 'Chauncey Billups']",True
+gemini-2.0-flash,board game,sports,medium,go,"['El Grande', 'Tigris & Euphrates', 'Concordia', 'Ra', 'The Crew: The Quest for Planet Nine']",False
+gemini-2.0-flash,branch of philosophy,general,hard,philosophy of technology,"['Philosophy of language', 'Philosophy of mind', 'Aesthetics', 'Logic', 'Philosophy of science']",True
+gemini-2.0-flash,career path,general,easy,tradesperson,"['trade jobs (electrician, plumber, welder, HVAC technician)', 'radiologic technologist/medical imaging', 'dental hygienist', 'supply chain/logistics', 'occupational therapy assistant']",False
+gemini-2.0-flash,cheese,food,medium,havarti,"['Havarti', 'Gruyère', 'Comté', 'Manchego', 'Jarlsberg']",True
+gemini-2.0-flash,chess opening,sports,hard,scotch game,"['London System', 'Scandinavian Defense', ""Bird's Opening"", 'English Opening', 'Czech Pirc']",False
+gemini-2.0-flash,city to visit in Europe,travel,easy,turin,"['Ljubljana', 'Porto', 'Budapest', 'Gdansk', 'Valencia']",False
+gemini-2.0-flash,classical composer,music,easy,anton bruckner,"['Nikolai Medtner', 'Mieczysław Weinberg', 'Carl Nielsen', 'Alexander Scriabin', 'Franz Schmidt']",False
+gemini-2.0-flash,coffee brewing method,food,medium,moka pot,"['AeroPress', 'Clever Dripper', 'Moka Pot', 'Siphon/Vacuum Pot', 'French Press']",True
+gemini-2.0-flash,country for solo travel,travel,medium,georgia,"['Georgia', 'Slovenia', 'Taiwan', 'Portugal', 'Romania']",True
+gemini-2.0-flash,cuisine,food,easy,peruvian,"['Filipino', 'Peruvian', 'Ethiopian', 'Vietnamese', 'Turkish']",True
+gemini-2.0-flash,documentary film,film,medium,shermans march,"['American Movie', 'The King of Kong: A Fistful of Quarters', 'Dear Zachary: A Letter to a Son About His Father', 'Dark Days', 'The Imposter']",False
+gemini-2.0-flash,era in human history,general,medium,late bronze age collapse,"['The Islamic Golden Age', 'The Byzantine Empire', 'The Song Dynasty (China)', 'The Indus Valley Civilization', 'The Medieval Period (Middle Ages)']",False
+gemini-2.0-flash,film noir,film,hard,night and the city,"['Night and the City', 'The Big Clock', 'Detour', 'In a Lonely Place', 'Pickup on South Street']",True
+gemini-2.0-flash,graphic novel,literature,medium,from hell,"['Daytripper', 'The Underwater Welder', 'The Arrival', 'Blacksad', 'Asterios Polyp']",False
+gemini-2.0-flash,hip-hop producer,music,medium,madlib,"['Madlib', 'El-P', 'DJ Quik', 'No I.D.', '9th Wonder']",True
+gemini-2.0-flash,historical site,travel,medium,göbekli tepe,"['Hampi, India', 'Petra, Jordan', 'Angkor Wat, Cambodia', 'Cappadocia, Turkey', 'The Alhambra, Spain']",False
+gemini-2.0-flash,hobby for adults,general,easy,genealogy,"['birdwatching', 'journaling', 'puzzle solving', 'gardening', 'tabletop role-playing games']",False
+gemini-2.0-flash,horror film director,film,medium,mike flanagan,"['Ti West', 'Mike Flanagan', 'Larry Fessenden', 'Karyn Kusama', 'Bob Clark']",True
+gemini-2.0-flash,invention of the 20th century,tech,easy,internet,"['Transistor', 'Shipping container', 'Barcode', 'Velcro', 'Duct tape']",False
+gemini-2.0-flash,island destination,travel,medium,dominica,"['Isle of Eigg, Scotland', 'Ischia, Italy', 'Azores, Portugal', 'Koh Lipe, Thailand', 'Sao Miguel, Portugal']",False
+gemini-2.0-flash,jazz album,music,medium,moanin in the moonlight,"['Andrew Hill - Point of Departure', 'Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2', 'Wayne Shorter - The All Seeing Eye', 'Sam Rivers - Contours', 'Booker Little - Out Front']",False
+gemini-2.0-flash,life skill to learn,general,easy,active listening,"['listening', 'emotional intelligence', 'critical thinking', 'communication', 'personal finance management']",True
+gemini-2.0-flash,mathematical theorem,tech,hard,banach-tarski theorem,"['Banach-Tarski Paradox', ""Noether's Theorem"", 'Brouwer Fixed Point Theorem', ""Cayley's Theorem"", ""Burnside's Lemma""]",True
+gemini-2.0-flash,national park in the United States,travel,medium,great basin national park,"['Great Basin National Park', 'North Cascades National Park', 'Isle Royale National Park', 'Lassen Volcanic National Park', 'Congaree National Park']",True
+gemini-2.0-flash,non-fiction book,literature,medium,short history of nearly everything,"['The Emperor of All Maladies by Siddhartha Mukherjee', ""Surely You're Joking, Mr. Feynman! by Richard Feynman"", 'The Gift of Fear by Gavin de Becker', 'Antifragile by Nassim Nicholas Taleb', 'The Righteous Mind by Jonathan Haidt']",False
+gemini-2.0-flash,novel of the 21st century,literature,medium,cloud atlas,"['Never Let Me Go by Kazuo Ishiguro', 'The Amazing Adventures of Kavalier & Clay by Michael Chabon', 'The Brief Wondrous Life of Oscar Wao by Junot Díaz', 'A Visit from the Goon Squad by Jennifer Egan', 'The Shadow of the Wind by Carlos Ruiz Zafón']",False
+gemini-2.0-flash,open-source software project,tech,medium,syncthing,"['mpv', 'Krita', 'qBittorrent', 'Syncthing', 'Gitea']",True
+gemini-2.0-flash,poet,literature,easy,edna st. vincent millay,"['Philip Larkin', 'Mary Oliver', 'W. S. Merwin', 'Anne Carson', 'Louise Glück']",False
+gemini-2.0-flash,programming language,tech,easy,forth,"['Rust', 'Elixir', 'Julia', 'Lua', 'Clojure']",False
+gemini-2.0-flash,rock band,music,easy,big star,"['King Crimson', 'The Replacements', 'Big Star', 'Thin Lizzy', 'Electric Light Orchestra']",True
+gemini-2.0-flash,sci-fi movie,film,easy,gattaca,"['Sunshine', 'Moon', 'Gattaca', 'Edge of Tomorrow', 'Dredd']",True
+gemini-2.0-flash,scientific discovery,tech,medium,bacteriophages,"['CRISPR gene editing', 'The discovery of the microbiome', 'The Haber-Bosch process (synthetic ammonia production)', 'The discovery of penicillin/antibiotics', 'The Green Revolution (agricultural advancements)']",False
+gemini-2.0-flash,short story writer,literature,medium,ted chiang,"['John Cheever', 'Lucia Berlin', 'Mavis Gallant', 'Robert Aickman', 'Jean Rhys']",False
+gemini-2.0-flash,singer-songwriter of the 2010s,music,medium,frank ocean,"['James Blake', 'Mitski', 'Father John Misty', 'Sufjan Stevens', 'Phoebe Bridgers']",False
+gemini-2.0-flash,spice,food,medium,grains of paradise,"['sumac', 'smoked paprika', 'fennel seeds', 'asafoetida', 'cardamom']",False
+gemini-2.0-flash,vegetable,food,easy,turnip,"['cabbage', 'rutabaga', 'parsnip', 'brussels sprouts', 'kohlrabi']",False
+gemini-2.0-flash,video game of the 2010s,sports,medium,spec ops: the line,"['Spec Ops: The Line', 'Sleeping Dogs', 'Titanfall 2', 'Enslaved: Odyssey to the West', 'Alan Wake']",True
+gpt-4.1,Olympic sport,sports,easy,handball,"['handball', 'table tennis', 'water polo', 'badminton', 'fencing']",True
+gpt-4.1,animated TV show,film,easy,over the garden wall,"['The Owl House', 'Over the Garden Wall', 'Infinity Train', 'Sym-Bionic Titan', 'Final Space']",True
+gpt-4.1,basketball player of all time,sports,easy,sidney moncrief,"['Sidney Moncrief', 'Manu Ginóbili', 'Bernard King', 'Detlef Schrempf', 'Chauncey Billups']",True
+gpt-4.1,board game,sports,medium,tigris & euphrates,"['El Grande', 'Tigris & Euphrates', 'Concordia', 'Ra', 'The Crew: The Quest for Planet Nine']",True
+gpt-4.1,branch of philosophy,general,hard,philosophy of technology,"['Philosophy of language', 'Philosophy of mind', 'Aesthetics', 'Logic', 'Philosophy of science']",True
+gpt-4.1,career path,general,easy,library science,"['trade jobs (electrician, plumber, welder, HVAC technician)', 'radiologic technologist/medical imaging', 'dental hygienist', 'supply chain/logistics', 'occupational therapy assistant']",False
+gpt-4.1,cheese,food,medium,comté,"['Havarti', 'Gruyère', 'Comté', 'Manchego', 'Jarlsberg']",True
+gpt-4.1,chess opening,sports,hard,london system,"['London System', 'Scandinavian Defense', ""Bird's Opening"", 'English Opening', 'Czech Pirc']",True
+gpt-4.1,city to visit in Europe,travel,easy,ljubljana,"['Ljubljana', 'Porto', 'Budapest', 'Gdansk', 'Valencia']",True
+gpt-4.1,classical composer,music,easy,nikolai medtner,"['Nikolai Medtner', 'Mieczysław Weinberg', 'Carl Nielsen', 'Alexander Scriabin', 'Franz Schmidt']",True
+gpt-4.1,coffee brewing method,food,medium,aeropress,"['AeroPress', 'Clever Dripper', 'Moka Pot', 'Siphon/Vacuum Pot', 'French Press']",True
+gpt-4.1,country for solo travel,travel,medium,georgia,"['Georgia', 'Slovenia', 'Taiwan', 'Portugal', 'Romania']",True
+gpt-4.1,cuisine,food,easy,filipino cuisine,"['Filipino', 'Peruvian', 'Ethiopian', 'Vietnamese', 'Turkish']",True
+gpt-4.1,documentary film,film,medium,king of kong: a fistful of quarters,"['American Movie', 'The King of Kong: A Fistful of Quarters', 'Dear Zachary: A Letter to a Son About His Father', 'Dark Days', 'The Imposter']",True
+gpt-4.1,era in human history,general,medium,islamic golden age,"['The Islamic Golden Age', 'The Byzantine Empire', 'The Song Dynasty (China)', 'The Indus Valley Civilization', 'The Medieval Period (Middle Ages)']",True
+gpt-4.1,film noir,film,hard,night and the city,"['Night and the City', 'The Big Clock', 'Detour', 'In a Lonely Place', 'Pickup on South Street']",True
+gpt-4.1,graphic novel,literature,medium,daytripper,"['Daytripper', 'The Underwater Welder', 'The Arrival', 'Blacksad', 'Asterios Polyp']",True
+gpt-4.1,hip-hop producer,music,medium,nujabes,"['Madlib', 'El-P', 'DJ Quik', 'No I.D.', '9th Wonder']",False
+gpt-4.1,historical site,travel,medium,hampi,"['Hampi, India', 'Petra, Jordan', 'Angkor Wat, Cambodia', 'Cappadocia, Turkey', 'The Alhambra, Spain']",True
+gpt-4.1,hobby for adults,general,easy,birdwatching,"['birdwatching', 'journaling', 'puzzle solving', 'gardening', 'tabletop role-playing games']",True
+gpt-4.1,horror film director,film,medium,ti west,"['Ti West', 'Mike Flanagan', 'Larry Fessenden', 'Karyn Kusama', 'Bob Clark']",True
+gpt-4.1,invention of the 20th century,tech,easy,ballpoint pen,"['Transistor', 'Shipping container', 'Barcode', 'Velcro', 'Duct tape']",False
+gpt-4.1,island destination,travel,medium,ischia,"['Isle of Eigg, Scotland', 'Ischia, Italy', 'Azores, Portugal', 'Koh Lipe, Thailand', 'Sao Miguel, Portugal']",True
+gpt-4.1,jazz album,music,medium,out to lunch!,"['Andrew Hill - Point of Departure', 'Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2', 'Wayne Shorter - The All Seeing Eye', 'Sam Rivers - Contours', 'Booker Little - Out Front']",False
+gpt-4.1,life skill to learn,general,easy,active listening,"['listening', 'emotional intelligence', 'critical thinking', 'communication', 'personal finance management']",True
+gpt-4.1,mathematical theorem,tech,hard,banach–tarski paradox,"['Banach-Tarski Paradox', ""Noether's Theorem"", 'Brouwer Fixed Point Theorem', ""Cayley's Theorem"", ""Burnside's Lemma""]",False
+gpt-4.1,national park in the United States,travel,medium,great basin national park,"['Great Basin National Park', 'North Cascades National Park', 'Isle Royale National Park', 'Lassen Volcanic National Park', 'Congaree National Park']",True
+gpt-4.1,non-fiction book,literature,medium,emperor of all maladies,"['The Emperor of All Maladies by Siddhartha Mukherjee', ""Surely You're Joking, Mr. Feynman! by Richard Feynman"", 'The Gift of Fear by Gavin de Becker', 'Antifragile by Nassim Nicholas Taleb', 'The Righteous Mind by Jonathan Haidt']",True
+gpt-4.1,novel of the 21st century,literature,medium,never let me go,"['Never Let Me Go by Kazuo Ishiguro', 'The Amazing Adventures of Kavalier & Clay by Michael Chabon', 'The Brief Wondrous Life of Oscar Wao by Junot Díaz', 'A Visit from the Goon Squad by Jennifer Egan', 'The Shadow of the Wind by Carlos Ruiz Zafón']",True
+gpt-4.1,open-source software project,tech,medium,gimp,"['mpv', 'Krita', 'qBittorrent', 'Syncthing', 'Gitea']",False
+gpt-4.1,poet,literature,easy,h.d. (hilda doolittle),"['Philip Larkin', 'Mary Oliver', 'W. S. Merwin', 'Anne Carson', 'Louise Glück']",False
+gpt-4.1,programming language,tech,easy,elixir,"['Rust', 'Elixir', 'Julia', 'Lua', 'Clojure']",True
+gpt-4.1,rock band,music,easy,kings x,"['King Crimson', 'The Replacements', 'Big Star', 'Thin Lizzy', 'Electric Light Orchestra']",False
+gpt-4.1,sci-fi movie,film,easy,moon,"['Sunshine', 'Moon', 'Gattaca', 'Edge of Tomorrow', 'Dredd']",True
+gpt-4.1,scientific discovery,tech,medium,crispr-cas9,"['CRISPR gene editing', 'The discovery of the microbiome', 'The Haber-Bosch process (synthetic ammonia production)', 'The discovery of penicillin/antibiotics', 'The Green Revolution (agricultural advancements)']",False
+gpt-4.1,short story writer,literature,medium,mavis gallant,"['John Cheever', 'Lucia Berlin', 'Mavis Gallant', 'Robert Aickman', 'Jean Rhys']",True
+gpt-4.1,singer-songwriter of the 2010s,music,medium,julia jacklin,"['James Blake', 'Mitski', 'Father John Misty', 'Sufjan Stevens', 'Phoebe Bridgers']",False
+gpt-4.1,spice,food,medium,sumac,"['sumac', 'smoked paprika', 'fennel seeds', 'asafoetida', 'cardamom']",True
+gpt-4.1,vegetable,food,easy,kohlrabi,"['cabbage', 'rutabaga', 'parsnip', 'brussels sprouts', 'kohlrabi']",True
+gpt-4.1,video game of the 2010s,sports,medium,spec ops: the line,"['Spec Ops: The Line', 'Sleeping Dogs', 'Titanfall 2', 'Enslaved: Odyssey to the West', 'Alan Wake']",True
+llama-4-maverick,Olympic sport,sports,easy,water polo,"['handball', 'table tennis', 'water polo', 'badminton', 'fencing']",True
+llama-4-maverick,animated TV show,film,easy,venture bros.,"['The Owl House', 'Over the Garden Wall', 'Infinity Train', 'Sym-Bionic Titan', 'Final Space']",False
+llama-4-maverick,basketball player of all time,sports,easy,dennis johnson,"['Sidney Moncrief', 'Manu Ginóbili', 'Bernard King', 'Detlef Schrempf', 'Chauncey Billups']",False
+llama-4-maverick,board game,sports,medium,el grande,"['El Grande', 'Tigris & Euphrates', 'Concordia', 'Ra', 'The Crew: The Quest for Planet Nine']",True
+llama-4-maverick,branch of philosophy,general,hard,mereology,"['Philosophy of language', 'Philosophy of mind', 'Aesthetics', 'Logic', 'Philosophy of science']",False
+llama-4-maverick,career path,general,easy,actuary,"['trade jobs (electrician, plumber, welder, HVAC technician)', 'radiologic technologist/medical imaging', 'dental hygienist', 'supply chain/logistics', 'occupational therapy assistant']",False
+llama-4-maverick,cheese,food,medium,gjetost,"['Havarti', 'Gruyère', 'Comté', 'Manchego', 'Jarlsberg']",False
+llama-4-maverick,chess opening,sports,hard,scotch game,"['London System', 'Scandinavian Defense', ""Bird's Opening"", 'English Opening', 'Czech Pirc']",False
+llama-4-maverick,city to visit in Europe,travel,easy,plovdiv,"['Ljubljana', 'Porto', 'Budapest', 'Gdansk', 'Valencia']",False
+llama-4-maverick,classical composer,music,easy,carl nielsen,"['Nikolai Medtner', 'Mieczysław Weinberg', 'Carl Nielsen', 'Alexander Scriabin', 'Franz Schmidt']",True
+llama-4-maverick,coffee brewing method,food,medium,clevespresso,"['AeroPress', 'Clever Dripper', 'Moka Pot', 'Siphon/Vacuum Pot', 'French Press']",False
+llama-4-maverick,country for solo travel,travel,medium,slovenia,"['Georgia', 'Slovenia', 'Taiwan', 'Portugal', 'Romania']",True
+llama-4-maverick,cuisine,food,easy,georgian,"['Filipino', 'Peruvian', 'Ethiopian', 'Vietnamese', 'Turkish']",False
+llama-4-maverick,documentary film,film,medium,imposter,"['American Movie', 'The King of Kong: A Fistful of Quarters', 'Dear Zachary: A Letter to a Son About His Father', 'Dark Days', 'The Imposter']",True
+llama-4-maverick,era in human history,general,medium,hellenistic period,"['The Islamic Golden Age', 'The Byzantine Empire', 'The Song Dynasty (China)', 'The Indus Valley Civilization', 'The Medieval Period (Middle Ages)']",False
+llama-4-maverick,film noir,film,hard,out of the past,"['Night and the City', 'The Big Clock', 'Detour', 'In a Lonely Place', 'Pickup on South Street']",False
+llama-4-maverick,graphic novel,literature,medium,black hole,"['Daytripper', 'The Underwater Welder', 'The Arrival', 'Blacksad', 'Asterios Polyp']",False
+llama-4-maverick,hip-hop producer,music,medium,j dilla,"['Madlib', 'El-P', 'DJ Quik', 'No I.D.', '9th Wonder']",False
+llama-4-maverick,historical site,travel,medium,cahokia mounds,"['Hampi, India', 'Petra, Jordan', 'Angkor Wat, Cambodia', 'Cappadocia, Turkey', 'The Alhambra, Spain']",False
+llama-4-maverick,hobby for adults,general,easy,taxidermy,"['birdwatching', 'journaling', 'puzzle solving', 'gardening', 'tabletop role-playing games']",False
+llama-4-maverick,horror film director,film,medium,lucio fulci,"['Ti West', 'Mike Flanagan', 'Larry Fessenden', 'Karyn Kusama', 'Bob Clark']",False
+llama-4-maverick,invention of the 20th century,tech,easy,nyquil,"['Transistor', 'Shipping container', 'Barcode', 'Velcro', 'Duct tape']",False
+llama-4-maverick,island destination,travel,medium,grenada,"['Isle of Eigg, Scotland', 'Ischia, Italy', 'Azores, Portugal', 'Koh Lipe, Thailand', 'Sao Miguel, Portugal']",False
+llama-4-maverick,jazz album,music,medium,black saint and the sinner lady,"['Andrew Hill - Point of Departure', 'Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2', 'Wayne Shorter - The All Seeing Eye', 'Sam Rivers - Contours', 'Booker Little - Out Front']",False
+llama-4-maverick,life skill to learn,general,easy,conflict resolution,"['listening', 'emotional intelligence', 'critical thinking', 'communication', 'personal finance management']",False
+llama-4-maverick,mathematical theorem,tech,hard,burnsides lemma,"['Banach-Tarski Paradox', ""Noether's Theorem"", 'Brouwer Fixed Point Theorem', ""Cayley's Theorem"", ""Burnside's Lemma""]",True
+llama-4-maverick,national park in the United States,travel,medium,north cascades,"['Great Basin National Park', 'North Cascades National Park', 'Isle Royale National Park', 'Lassen Volcanic National Park', 'Congaree National Park']",True
+llama-4-maverick,non-fiction book,literature,medium,denial of death,"['The Emperor of All Maladies by Siddhartha Mukherjee', ""Surely You're Joking, Mr. Feynman! by Richard Feynman"", 'The Gift of Fear by Gavin de Becker', 'Antifragile by Nassim Nicholas Taleb', 'The Righteous Mind by Jonathan Haidt']",False
+llama-4-maverick,novel of the 21st century,literature,medium,wind-up bird chronicle,"['Never Let Me Go by Kazuo Ishiguro', 'The Amazing Adventures of Kavalier & Clay by Michael Chabon', 'The Brief Wondrous Life of Oscar Wao by Junot Díaz', 'A Visit from the Goon Squad by Jennifer Egan', 'The Shadow of the Wind by Carlos Ruiz Zafón']",False
+llama-4-maverick,open-source software project,tech,medium,ffmpeg,"['mpv', 'Krita', 'qBittorrent', 'Syncthing', 'Gitea']",False
+llama-4-maverick,poet,literature,easy,rainer maria rilke,"['Philip Larkin', 'Mary Oliver', 'W. S. Merwin', 'Anne Carson', 'Louise Glück']",False
+llama-4-maverick,programming language,tech,easy,haskell,"['Rust', 'Elixir', 'Julia', 'Lua', 'Clojure']",False
+llama-4-maverick,rock band,music,easy,tame impala,"['King Crimson', 'The Replacements', 'Big Star', 'Thin Lizzy', 'Electric Light Orchestra']",False
+llama-4-maverick,sci-fi movie,film,easy,existenz,"['Sunshine', 'Moon', 'Gattaca', 'Edge of Tomorrow', 'Dredd']",False
+llama-4-maverick,scientific discovery,tech,medium,brownian motion,"['CRISPR gene editing', 'The discovery of the microbiome', 'The Haber-Bosch process (synthetic ammonia production)', 'The discovery of penicillin/antibiotics', 'The Green Revolution (agricultural advancements)']",False
+llama-4-maverick,short story writer,literature,medium,shirley jackson,"['John Cheever', 'Lucia Berlin', 'Mavis Gallant', 'Robert Aickman', 'Jean Rhys']",False
+llama-4-maverick,singer-songwriter of the 2010s,music,medium,lucy dacus,"['James Blake', 'Mitski', 'Father John Misty', 'Sufjan Stevens', 'Phoebe Bridgers']",False
+llama-4-maverick,spice,food,medium,grains of paradise,"['sumac', 'smoked paprika', 'fennel seeds', 'asafoetida', 'cardamom']",False
+llama-4-maverick,vegetable,food,easy,rutabaga,"['cabbage', 'rutabaga', 'parsnip', 'brussels sprouts', 'kohlrabi']",True
+llama-4-maverick,video game of the 2010s,sports,medium,hyper light drifter,"['Spec Ops: The Line', 'Sleeping Dogs', 'Titanfall 2', 'Enslaved: Odyssey to the West', 'Alan Wake']",False
+qwen3-235b,animated TV show,film,easy,samurai jack,"['The Owl House', 'Over the Garden Wall', 'Infinity Train', 'Sym-Bionic Titan', 'Final Space']",False
+qwen3-235b,classical composer,music,easy,a: charles-valentin alkan,"['Nikolai Medtner', 'Mieczysław Weinberg', 'Carl Nielsen', 'Alexander Scriabin', 'Franz Schmidt']",False
+qwen3-235b,documentary film,film,medium,a: dark days,"['American Movie', 'The King of Kong: A Fistful of Quarters', 'Dear Zachary: A Letter to a Son About His Father', 'Dark Days', 'The Imposter']",True
+qwen3-235b,film noir,film,hard,detour,"['Night and the City', 'The Big Clock', 'Detour', 'In a Lonely Place', 'Pickup on South Street']",True
+qwen3-235b,hip-hop producer,music,medium,madlib,"['Madlib', 'El-P', 'DJ Quik', 'No I.D.', '9th Wonder']",True
+qwen3-235b,horror film director,film,medium,stuart gordon,"['Ti West', 'Mike Flanagan', 'Larry Fessenden', 'Karyn Kusama', 'Bob Clark']",False
+qwen3-235b,jazz album,music,medium,point of departure,"['Andrew Hill - Point of Departure', 'Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2', 'Wayne Shorter - The All Seeing Eye', 'Sam Rivers - Contours', 'Booker Little - Out Front']",True
+qwen3-235b,novel of the 21st century,literature,medium,gone-away world,"['Never Let Me Go by Kazuo Ishiguro', 'The Amazing Adventures of Kavalier & Clay by Michael Chabon', 'The Brief Wondrous Life of Oscar Wao by Junot Díaz', 'A Visit from the Goon Squad by Jennifer Egan', 'The Shadow of the Wind by Carlos Ruiz Zafón']",False
+qwen3-235b,rock band,music,easy,big star,"['King Crimson', 'The Replacements', 'Big Star', 'Thin Lizzy', 'Electric Light Orchestra']",True
+qwen3-235b,sci-fi movie,film,easy,dark city,"['Sunshine', 'Moon', 'Gattaca', 'Edge of Tomorrow', 'Dredd']",False
+qwen3-235b,short story writer,literature,medium,lucia berlin,"['John Cheever', 'Lucia Berlin', 'Mavis Gallant', 'Robert Aickman', 'Jean Rhys']",True
+qwen3-235b,singer-songwriter of the 2010s,music,medium,laura marling,"['James Blake', 'Mitski', 'Father John Misty', 'Sufjan Stevens', 'Phoebe Bridgers']",False

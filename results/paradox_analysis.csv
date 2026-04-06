@@ -1,0 +1,41 @@
+category,domain,difficulty,consensus_answer,models_agreeing,total_models,paradox_score,total_frequency,total_responses,frequency_rate
+Olympic sport,sports,easy,handball,2,4,0.5,12,40,0.3
+animated TV show,film,easy,clone high,1,5,0.2,11,50,0.22
+basketball player of all time,sports,easy,sidney moncrief,2,4,0.5,19,40,0.475
+board game,sports,medium,concordia,1,4,0.25,5,40,0.125
+branch of philosophy,general,hard,philosophy of technology,3,4,0.75,23,40,0.575
+career path,general,easy,actuary,2,4,0.5,11,40,0.275
+cheese,food,medium,gruyère,1,4,0.25,12,40,0.3
+chess opening,sports,hard,london system,2,4,0.5,13,40,0.325
+city to visit in Europe,travel,easy,porto,1,4,0.25,10,40,0.25
+classical composer,music,easy,carl philipp emanuel bach,1,5,0.2,10,50,0.2
+coffee brewing method,food,medium,french press,1,4,0.25,10,40,0.25
+country for solo travel,travel,medium,georgia,2,4,0.5,19,40,0.475
+cuisine,food,easy,ethiopian,1,4,0.25,6,40,0.15
+documentary film,film,medium,senna,1,5,0.2,7,50,0.14
+era in human history,general,medium,bronze age,1,4,0.25,8,40,0.2
+film noir,film,hard,night and the city,2,5,0.4,9,50,0.18
+graphic novel,literature,medium,daytripper,2,4,0.5,18,40,0.45
+hip-hop producer,music,medium,j dilla,2,5,0.4,21,50,0.42
+historical site,travel,medium,göbekli tepe,2,4,0.5,22,40,0.55
+hobby for adults,general,easy,birdwatching,2,4,0.5,15,40,0.375
+horror film director,film,medium,mike flanagan,2,5,0.4,19,50,0.38
+invention of the 20th century,tech,easy,transistor,1,4,0.25,11,40,0.275
+island destination,travel,medium,azores,1,4,0.25,10,40,0.25
+jazz album,music,medium,speak no evil by wayne shorter,1,5,0.2,7,50,0.14
+life skill to learn,general,easy,active listening,3,4,0.75,30,40,0.75
+mathematical theorem,tech,hard,cayley-hamilton theorem,1,4,0.25,6,40,0.15
+national park in the United States,travel,medium,great basin national park,3,4,0.75,29,40,0.725
+non-fiction book,literature,medium,discoverers by daniel j. boorstin,1,4,0.25,6,40,0.15
+novel of the 21st century,literature,medium,luminaries by eleanor catton,1,5,0.2,4,50,0.08
+open-source software project,tech,medium,rsync,1,4,0.25,5,40,0.125
+poet,literature,easy,gerard manley hopkins,1,4,0.25,7,40,0.175
+programming language,tech,easy,elixir,2,4,0.5,12,40,0.3
+rock band,music,easy,big star,3,5,0.6,28,50,0.56
+sci-fi movie,film,easy,gattaca,2,5,0.4,19,50,0.38
+scientific discovery,tech,medium,discovery of telomerase and telomeres' role in aging,1,4,0.25,2,40,0.05
+short story writer,literature,medium,shirley jackson,2,5,0.4,14,46,0.30434782608695654
+singer-songwriter of the 2010s,music,medium,julien baker,1,5,0.2,9,50,0.18
+spice,food,medium,sumac,2,4,0.5,19,40,0.475
+vegetable,food,easy,rutabaga,2,4,0.5,14,40,0.35
+video game of the 2010s,sports,medium,spec ops: the line,2,4,0.5,18,40,0.45

@@ -1,0 +1,173 @@
+model,category,domain,difficulty,mean_pairwise_distance,num_unique
+claude-sonnet-4-5,Olympic sport,sports,easy,0.3507366180419922,3
+claude-sonnet-4-5,animated TV show,film,easy,0.8949808478355408,2
+claude-sonnet-4-5,basketball player of all time,sports,easy,0.7933526039123535,3
+claude-sonnet-4-5,board game,sports,medium,0.9650679230690002,3
+claude-sonnet-4-5,branch of philosophy,general,hard,0.0,1
+claude-sonnet-4-5,career path,general,easy,0.48326778411865234,8
+claude-sonnet-4-5,cheese,food,medium,0.0,1
+claude-sonnet-4-5,chess opening,sports,hard,0.7866420745849609,3
+claude-sonnet-4-5,city to visit in Europe,travel,easy,0.0,1
+claude-sonnet-4-5,classical composer,music,easy,0.7763091921806335,4
+claude-sonnet-4-5,coffee brewing method,food,medium,0.0,1
+claude-sonnet-4-5,country for solo travel,travel,medium,0.5278564095497131,3
+claude-sonnet-4-5,cuisine,food,easy,0.6362349390983582,3
+claude-sonnet-4-5,documentary film,film,medium,0.7184359431266785,3
+claude-sonnet-4-5,era in human history,general,medium,0.1980506181716919,2
+claude-sonnet-4-5,film noir,film,hard,0.8143755197525024,2
+claude-sonnet-4-5,graphic novel,literature,medium,0.7991255521774292,2
+claude-sonnet-4-5,hip-hop producer,music,medium,0.756720244884491,2
+claude-sonnet-4-5,historical site,travel,medium,0.0,1
+claude-sonnet-4-5,hobby for adults,general,easy,0.0,1
+claude-sonnet-4-5,horror film director,film,medium,0.0,1
+claude-sonnet-4-5,invention of the 20th century,tech,easy,0.8139561414718628,2
+claude-sonnet-4-5,island destination,travel,medium,0.0,1
+claude-sonnet-4-5,jazz album,music,medium,0.7521454691886902,3
+claude-sonnet-4-5,life skill to learn,general,easy,0.0,1
+claude-sonnet-4-5,mathematical theorem,tech,hard,0.7447896599769592,5
+claude-sonnet-4-5,national park in the United States,travel,medium,0.0,1
+claude-sonnet-4-5,non-fiction book,literature,medium,0.8055469393730164,5
+claude-sonnet-4-5,novel of the 21st century,literature,medium,0.6499436497688293,4
+claude-sonnet-4-5,open-source software project,tech,medium,0.8976040482521057,4
+claude-sonnet-4-5,poet,literature,easy,0.5959500074386597,2
+claude-sonnet-4-5,programming language,tech,easy,0.6856462955474854,4
+claude-sonnet-4-5,rock band,music,easy,0.0,1
+claude-sonnet-4-5,sci-fi movie,film,easy,0.0,1
+claude-sonnet-4-5,scientific discovery,tech,medium,0.7808631062507629,8
+claude-sonnet-4-5,short story writer,literature,medium,0.7314627170562744,4
+claude-sonnet-4-5,singer-songwriter of the 2010s,music,medium,0.7144299149513245,2
+claude-sonnet-4-5,spice,food,medium,0.7645902633666992,2
+claude-sonnet-4-5,vegetable,food,easy,0.7704849243164062,3
+claude-sonnet-4-5,video game of the 2010s,sports,medium,0.0,1
+gemini-2.0-flash,Olympic sport,sports,easy,0.18274271488189697,2
+gemini-2.0-flash,animated TV show,film,easy,0.8590871691703796,4
+gemini-2.0-flash,basketball player of all time,sports,easy,0.6825743913650513,2
+gemini-2.0-flash,board game,sports,medium,0.786460280418396,5
+gemini-2.0-flash,branch of philosophy,general,hard,0.5271773934364319,2
+gemini-2.0-flash,career path,general,easy,0.0,1
+gemini-2.0-flash,cheese,food,medium,0.7491031289100647,5
+gemini-2.0-flash,chess opening,sports,hard,0.7333054542541504,4
+gemini-2.0-flash,city to visit in Europe,travel,easy,0.5323300361633301,2
+gemini-2.0-flash,classical composer,music,easy,0.5585364699363708,4
+gemini-2.0-flash,coffee brewing method,food,medium,0.850651204586029,2
+gemini-2.0-flash,country for solo travel,travel,medium,0.0,1
+gemini-2.0-flash,cuisine,food,easy,0.28239017724990845,2
+gemini-2.0-flash,documentary film,film,medium,0.9256144762039185,6
+gemini-2.0-flash,era in human history,general,medium,0.43333351612091064,3
+gemini-2.0-flash,film noir,film,hard,0.7055715322494507,5
+gemini-2.0-flash,graphic novel,literature,medium,0.7608727812767029,2
+gemini-2.0-flash,hip-hop producer,music,medium,0.8058856129646301,2
+gemini-2.0-flash,historical site,travel,medium,0.7325161695480347,2
+gemini-2.0-flash,hobby for adults,general,easy,0.8341448903083801,3
+gemini-2.0-flash,horror film director,film,medium,0.6899443864822388,2
+gemini-2.0-flash,invention of the 20th century,tech,easy,0.7229427099227905,5
+gemini-2.0-flash,island destination,travel,medium,0.0,1
+gemini-2.0-flash,jazz album,music,medium,0.8397573232650757,2
+gemini-2.0-flash,life skill to learn,general,easy,0.0,1
+gemini-2.0-flash,mathematical theorem,tech,hard,0.8423854112625122,6
+gemini-2.0-flash,national park in the United States,travel,medium,0.6434996128082275,2
+gemini-2.0-flash,non-fiction book,literature,medium,0.849936306476593,6
+gemini-2.0-flash,novel of the 21st century,literature,medium,0.0,1
+gemini-2.0-flash,open-source software project,tech,medium,0.7718157172203064,6
+gemini-2.0-flash,poet,literature,easy,0.8417921662330627,3
+gemini-2.0-flash,programming language,tech,easy,0.725873589515686,2
+gemini-2.0-flash,rock band,music,easy,0.0,1
+gemini-2.0-flash,sci-fi movie,film,easy,0.8748016953468323,2
+gemini-2.0-flash,scientific discovery,tech,medium,0.6227385997772217,6
+gemini-2.0-flash,short story writer,literature,medium,0.0,1
+gemini-2.0-flash,singer-songwriter of the 2010s,music,medium,0.7175768613815308,2
+gemini-2.0-flash,spice,food,medium,0.7367908954620361,2
+gemini-2.0-flash,vegetable,food,easy,0.7494617104530334,2
+gemini-2.0-flash,video game of the 2010s,sports,medium,0.0,1
+gpt-4.1,Olympic sport,sports,easy,0.08709228038787842,2
+gpt-4.1,animated TV show,film,easy,0.6572844982147217,2
+gpt-4.1,basketball player of all time,sports,easy,0.0,1
+gpt-4.1,board game,sports,medium,0.0,1
+gpt-4.1,branch of philosophy,general,hard,0.7149272561073303,4
+gpt-4.1,career path,general,easy,0.6578755378723145,3
+gpt-4.1,cheese,food,medium,0.5958167314529419,5
+gpt-4.1,chess opening,sports,hard,0.5819715857505798,4
+gpt-4.1,city to visit in Europe,travel,easy,0.6269646286964417,4
+gpt-4.1,classical composer,music,easy,0.6664353609085083,4
+gpt-4.1,coffee brewing method,food,medium,0.0,1
+gpt-4.1,country for solo travel,travel,medium,0.5317416787147522,2
+gpt-4.1,cuisine,food,easy,0.702747106552124,2
+gpt-4.1,documentary film,film,medium,0.8153640627861023,3
+gpt-4.1,era in human history,general,medium,0.0,1
+gpt-4.1,film noir,film,hard,0.7593979239463806,3
+gpt-4.1,graphic novel,literature,medium,0.0,1
+gpt-4.1,hip-hop producer,music,medium,0.7594121694564819,5
+gpt-4.1,historical site,travel,medium,0.7303323745727539,4
+gpt-4.1,hobby for adults,general,easy,0.7936280369758606,3
+gpt-4.1,horror film director,film,medium,0.7921739220619202,3
+gpt-4.1,invention of the 20th century,tech,easy,0.830327033996582,4
+gpt-4.1,island destination,travel,medium,0.5794682502746582,5
+gpt-4.1,jazz album,music,medium,0.8424873352050781,3
+gpt-4.1,life skill to learn,general,easy,0.0,1
+gpt-4.1,mathematical theorem,tech,hard,0.7548547387123108,6
+gpt-4.1,national park in the United States,travel,medium,0.0,1
+gpt-4.1,non-fiction book,literature,medium,0.8415207266807556,8
+gpt-4.1,novel of the 21st century,literature,medium,0.0,1
+gpt-4.1,open-source software project,tech,medium,0.6850430369377136,3
+gpt-4.1,poet,literature,easy,0.7064597010612488,6
+gpt-4.1,programming language,tech,easy,0.7739803194999695,3
+gpt-4.1,rock band,music,easy,0.5357763767242432,3
+gpt-4.1,sci-fi movie,film,easy,0.6231771111488342,3
+gpt-4.1,scientific discovery,tech,medium,0.9450671672821045,2
+gpt-4.1,short story writer,literature,medium,0.7447167634963989,7
+gpt-4.1,singer-songwriter of the 2010s,music,medium,0.6231702566146851,6
+gpt-4.1,spice,food,medium,0.0,1
+gpt-4.1,vegetable,food,easy,0.6391099095344543,2
+gpt-4.1,video game of the 2010s,sports,medium,0.851369321346283,3
+llama-4-maverick,Olympic sport,sports,easy,0.6699705719947815,4
+llama-4-maverick,animated TV show,film,easy,0.8351982831954956,6
+llama-4-maverick,basketball player of all time,sports,easy,0.5608034729957581,4
+llama-4-maverick,board game,sports,medium,0.8075433969497681,5
+llama-4-maverick,branch of philosophy,general,hard,0.0,1
+llama-4-maverick,career path,general,easy,0.6583297252655029,2
+llama-4-maverick,cheese,food,medium,0.64011549949646,3
+llama-4-maverick,chess opening,sports,hard,0.7529197931289673,2
+llama-4-maverick,city to visit in Europe,travel,easy,0.8764039874076843,3
+llama-4-maverick,classical composer,music,easy,0.6821015477180481,3
+llama-4-maverick,coffee brewing method,food,medium,0.6369767785072327,4
+llama-4-maverick,country for solo travel,travel,medium,0.0,1
+llama-4-maverick,cuisine,food,easy,0.43400585651397705,2
+llama-4-maverick,documentary film,film,medium,0.8358421325683594,2
+llama-4-maverick,era in human history,general,medium,0.0,1
+llama-4-maverick,film noir,film,hard,0.73623126745224,2
+llama-4-maverick,graphic novel,literature,medium,0.7346062064170837,6
+llama-4-maverick,hip-hop producer,music,medium,0.0,1
+llama-4-maverick,historical site,travel,medium,0.6789410710334778,3
+llama-4-maverick,hobby for adults,general,easy,0.0,1
+llama-4-maverick,horror film director,film,medium,0.8203556537628174,2
+llama-4-maverick,invention of the 20th century,tech,easy,0.7659804224967957,7
+llama-4-maverick,island destination,travel,medium,0.6708486676216125,6
+llama-4-maverick,jazz album,music,medium,0.7913442850112915,5
+llama-4-maverick,life skill to learn,general,easy,0.663792073726654,3
+llama-4-maverick,mathematical theorem,tech,hard,0.6329247951507568,3
+llama-4-maverick,national park in the United States,travel,medium,0.4548109471797943,3
+llama-4-maverick,non-fiction book,literature,medium,0.883036196231842,2
+llama-4-maverick,novel of the 21st century,literature,medium,0.7664794921875,3
+llama-4-maverick,open-source software project,tech,medium,0.7816428542137146,4
+llama-4-maverick,poet,literature,easy,0.5144243240356445,5
+llama-4-maverick,programming language,tech,easy,0.6980753540992737,3
+llama-4-maverick,rock band,music,easy,0.7038487195968628,2
+llama-4-maverick,sci-fi movie,film,easy,0.0,1
+llama-4-maverick,scientific discovery,tech,medium,0.9349080920219421,3
+llama-4-maverick,short story writer,literature,medium,0.6486378312110901,3
+llama-4-maverick,singer-songwriter of the 2010s,music,medium,0.7219672799110413,4
+llama-4-maverick,spice,food,medium,0.7517618536949158,4
+llama-4-maverick,vegetable,food,easy,0.0,1
+llama-4-maverick,video game of the 2010s,sports,medium,0.865835964679718,6
+qwen3-235b,animated TV show,film,easy,0.8718228936195374,6
+qwen3-235b,classical composer,music,easy,0.632793664932251,6
+qwen3-235b,documentary film,film,medium,0.8321606516838074,4
+qwen3-235b,film noir,film,hard,0.8538475036621094,4
+qwen3-235b,hip-hop producer,music,medium,0.8198251724243164,5
+qwen3-235b,horror film director,film,medium,0.7427510619163513,3
+qwen3-235b,jazz album,music,medium,0.9016995429992676,8
+qwen3-235b,novel of the 21st century,literature,medium,0.8420029878616333,5
+qwen3-235b,rock band,music,easy,0.7744267582893372,7
+qwen3-235b,sci-fi movie,film,easy,0.8169422745704651,4
+qwen3-235b,short story writer,literature,medium,0.7803988456726074,2
+qwen3-235b,singer-songwriter of the 2010s,music,medium,0.7004656195640564,9

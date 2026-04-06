@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-04-06T00:36:21.232895",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-04-06T00:36:21.233296",
+      "completed_at": "2026-04-06T00:53:07.523917",
+      "success": true,
+      "outputs": {
+        "literature_review": "/workspaces/underrated-metric-nlp-0ca5-claude/literature_review.md",
+        "resources_catalog": "/workspaces/underrated-metric-nlp-0ca5-claude/resources.md",
+        "papers_dir": "/workspaces/underrated-metric-nlp-0ca5-claude/papers",
+        "datasets_dir": "/workspaces/underrated-metric-nlp-0ca5-claude/datasets",
+        "code_dir": "/workspaces/underrated-metric-nlp-0ca5-claude/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2026-04-06T00:53:07.524410",
+      "completed_at": "2026-04-06T02:33:12.768119",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 6005.232445716858,
+        "log_file": "/workspaces/underrated-metric-nlp-0ca5-claude/logs/execution_claude.log",
+        "transcript_file": "/workspaces/underrated-metric-nlp-0ca5-claude/logs/execution_claude_transcript.jsonl"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": true,
+  "completed_at": "2026-04-06T02:33:12.769380"
+}

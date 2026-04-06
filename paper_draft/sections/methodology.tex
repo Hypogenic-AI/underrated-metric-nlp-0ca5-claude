@@ -1,0 +1,61 @@
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Task Design}
+\label{sec:task}
+
+We design the ``most underrated X'' diagnostic as follows. For each of 40 categories spanning 8 domains (Music, Film, Literature, Food, Technology, Sports, Travel, and General), we construct the prompt: \textit{``What is the most underrated X?''} where $X$ is the category name (\eg ``rock band,'' ``vegetable,'' ``chess opening''). The task requires the model to reason about two quantities simultaneously: an item's quality and its level of recognition. A genuinely underrated item has high quality but low recognition---the model must identify items in this gap rather than items that are \textit{frequently discussed as underrated}, which are by definition well-recognized.
+
+We include 13 ``easy'' categories (well-known domains with clear popular picks, \eg ``cheese''), 21 ``medium'' categories, and 6 ``hard'' categories (niche domains, \eg ``chess opening''), as determined by the expected familiarity of the domain to a general audience.
+
+\subsection{Models}
+
+We evaluate five LLMs spanning four model families, as shown in \tabref{tab:models}. We access \gptfour through the OpenAI API and the remaining models through OpenRouter. This selection covers the major commercial and open-weight model families available at the time of experimentation.
+
+\begin{table}[t]
+    \centering
+    \caption{Models evaluated. All models are queried 10 times per category (40 categories) at temperature 1.0. \qwen has partial data due to slow inference.}
+    \begin{tabular}{@{}llll@{}}
+        \toprule
+        \textbf{Model} & \textbf{Provider} & \textbf{Family} & \textbf{Responses} \\
+        \midrule
+        GPT-4.1 & OpenAI & GPT & 400 \\
+        Claude Sonnet 4.5 & Anthropic & Claude & 400 \\
+        Gemini 2.0 Flash & Google & Gemini & 400 \\
+        Llama 4 Maverick & Meta & Llama & 400 \\
+        Qwen3-235B & Alibaba & Qwen & 116 \\
+        \midrule
+        \textbf{Total} & & & \textbf{1,716} \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:models}
+\end{table}
+
+\subsection{Experimental Protocol}
+
+Each model receives the following system prompt to constrain responses to a single named entity:
+
+\begin{quote}
+\textit{``You are answering a survey question. Give ONLY the name of your answer---no explanation, no justification, no preamble. Just the specific name/title.''}
+\end{quote}
+
+We query each model 10 times per category at temperature 1.0 (standard sampling for natural diversity) with a maximum of 100 output tokens. We use only the simplest prompt template to control for prompt variation effects. Responses are normalized by extracting the first line, converting to lowercase, and removing leading articles.
+
+\subsection{Reddit Baseline Construction}
+\label{sec:reddit}
+
+For each category, we identify the top 5 most commonly cited ``underrated'' answers from Reddit and web forums. Because direct scraping at scale introduces noise and coverage issues, we use \gptfour at temperature 0.3 as a knowledge proxy to generate Reddit-style consensus picks---the ``obvious'' answers that dominate online discussions of underratedness. We acknowledge this introduces potential circularity (\secref{sec:limitations}) but argue that the proxy is conservative: if an LLM can generate what Reddit would say, then LLM answers matching this proxy are, at minimum, not surprising.
+
+\subsection{Evaluation Metrics}
+
+We define five metrics to capture different aspects of novelty limitation:
+
+\para{Intra-model agreement rate.} For each model $m$ and category $c$, we compute the fraction of 10 runs that produce the most common answer: $\text{Agree}(m, c) = \max_a \frac{|\{r : \text{answer}(r) = a\}|}{10}$. Higher values indicate less diversity. Under a uniform distribution over a large answer space, the expected agreement rate is approximately 10\%.
+
+\para{Cross-model top answer overlap.} For each pair of models $(m_i, m_j)$, we compute the fraction of 40 categories where both models share the same most frequent answer.
+
+\para{Novelty Paradox Score (\nps).} For each category $c$, we compute $\text{NPS}(c) = \max_a \frac{|\{m : \text{top}(m, c) = a\}|}{|M|}$, where $M$ is the set of models and $\text{top}(m, c)$ is model $m$'s most frequent answer for category $c$. An NPS of 1.0 means all models converge on the same ``underrated'' pick.
+
+\para{Reddit overlap rate.} The fraction of a model's top answers (across categories) that fuzzy-match any of the 5 Reddit baseline answers for that category.
+
+\para{Semantic diversity.} Mean pairwise cosine distance between sentence embeddings (all-MiniLM-L6-v2; \citealp{reimers2019sentence}) of a model's 10 responses per category, averaged across categories.

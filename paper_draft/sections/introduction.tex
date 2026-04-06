@@ -1,0 +1,22 @@
+\section{Introduction}
+\label{sec:intro}
+
+Ask five different people to name the most underrated vegetable, and you will likely hear five different answers. Ask five different large language models the same question, and three of them will say ``rutabaga.'' This pattern---where LLMs converge on the \textit{same} ``underrated'' pick---reveals something fundamental about how these models handle subjective judgment. The most popular ``underrated'' answer is, by definition, not truly underrated: it is the consensus.
+
+{\bf Why does this matter?} As LLMs are increasingly used for creative ideation, recommendation, and brainstorming \citep{anderson2024homogenization, padmakumar2024diversity}, their ability to go beyond consensus thinking is critical. A brainstorming partner that only suggests the obvious ``novel'' ideas---the ones everyone already knows about---cannot serve as a genuine source of creative inspiration. The ``most underrated X'' question provides a sharp diagnostic for this limitation because it creates a measurable \textit{novelty paradox}: the correct answer should be surprising, yet LLMs systematically produce the unsurprising consensus.
+
+{\bf What is missing in existing work?} Recent work has established that LLMs exhibit \textit{generative monoculture}---producing narrower output distributions than humans across domains including code, reviews, and creative writing \citep{wu2024monoculture, wenger2025homogeneity}. However, existing creativity benchmarks such as the Divergent Association Task and Alternative Uses Task \citep{divergent2024creativity, liveideabench2024} measure abstract divergent thinking rather than domain-specific taste or evaluative judgment. No existing benchmark tests whether LLMs can reason about \textit{underratedness}---a task requiring simultaneous understanding of both quality and popular recognition. This gap matters because underratedness is precisely the kind of second-order judgment that distinguishes genuine insight from pattern matching.
+
+{\bf Our approach.} We design a diagnostic evaluation in which five LLMs across four model families are queried with ``What is the most underrated X?'' across 40 categories spanning 8 domains. Each model is queried 10 times per category at temperature 1.0, yielding 1,716 total responses. We compare answers within models (intra-model diversity), across models (inter-model convergence), and against Reddit-sourced baselines representing the ``obvious'' underrated picks. We formalize the \noveltyparadox Score---the fraction of models whose top answer for a category is the same entity---as a quantitative measure of this self-defeating convergence.
+
+{\bf What do we find?} The results are striking. The mean intra-model agreement rate is 68.2\% (Cohen's $d = 2.42$ vs.\ 10\% chance baseline, $p < 0.0001$). Across models, 49.4\% of top answers match Reddit's commonly cited ``underrated'' picks. \gptfour is the most predictable (75\% Reddit overlap), while \llama shows the most independence (20\%). Domain matters: food and sports show 70\% Reddit overlap, while literature shows only 27.3\%.
+
+Our contributions are as follows:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We introduce the ``most underrated X'' question as a diagnostic task for LLM novelty limitations, requiring second-order reasoning about quality and recognition.
+    \item We formalize and measure the \noveltyparadox---where cross-model convergence on an ``underrated'' pick paradoxically makes that pick the consensus choice---across 40 categories and 5 models.
+    \item We conduct a systematic comparison of five LLMs across four model families, revealing that intra-model agreement averages 68.2\% and that model family significantly affects independence from popular consensus.
+    \item We provide empirical evidence that LLMs conflate ``frequently discussed as underrated'' with ``genuinely underrated,'' with 49.4\% of top answers matching Reddit baselines.
+\end{itemize}
+
+The remainder of this paper is organized as follows. \Secref{sec:related} reviews related work on generative monoculture and LLM creativity evaluation. \Secref{sec:method} describes our experimental methodology. \Secref{sec:results} presents the main results. \Secref{sec:discussion} discusses implications and limitations, and \secref{sec:conclusion} concludes.

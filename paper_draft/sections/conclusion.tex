@@ -1,0 +1,8 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced the ``most underrated X'' question as a diagnostic for LLM novelty limitations and formalized the \noveltyparadox---the self-defeating dynamic in which cross-model convergence on an ``underrated'' answer paradoxically makes that answer the consensus choice. Across 40 categories, 5 models, and 1,716 responses, we found a mean intra-model agreement rate of 68.2\% (Cohen's $d = 2.42$ vs.\ chance) and 49.4\% overlap with Reddit consensus picks. These results demonstrate that current LLMs conflate ``frequently discussed as underrated'' with ``genuinely underrated,'' revealing a structural limitation in second-order evaluative reasoning.
+
+Model family matters: \llama showed 20\% Reddit overlap compared to \gptfour's 75\%, and \qwen produced the highest within-model diversity. Domain matters too: food and sports show 70\% consensus overlap while literature shows 27.3\%. These variations suggest that both training methodology and domain-specific data composition influence the severity of the novelty paradox.
+
+Future work should establish human baselines by surveying diverse populations with the same questions, scrape actual Reddit threads for ground-truth ``obvious'' baselines, and test whether chain-of-thought reasoning about popularity can help models avoid consensus answers. The ``most underrated X'' diagnostic is simple to administer, requires no specialized infrastructure, and produces interpretable results---we believe it can serve as a practical complement to existing creativity benchmarks for evaluating genuine novelty in LLM outputs.

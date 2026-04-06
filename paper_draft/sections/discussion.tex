@@ -1,0 +1,39 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Interpretation}
+
+Our results reveal a specific failure mode: LLMs cannot distinguish between ``what most people think is underrated'' and ``what is genuinely underrated.'' This requires second-order reasoning about popular opinion---understanding not just quality, but the gap between quality and recognition. LLMs appear to conflate ``frequently discussed as underrated'' with ``underrated,'' which is exactly backwards. An item that everyone calls underrated is, by definition, well-recognized.
+
+The 68.2\% intra-model agreement rate is not a sampling artifact. At temperature 1.0, models have ample stochastic variation available, yet they overwhelmingly produce the same answer. This is consistent with \citet{wu2024monoculture}'s finding that temperature and sampling changes are insufficient to overcome structural monoculture, and with \citet{correlated2025errors}'s observation that inference-time interventions cannot fix training-time convergence.
+
+The cross-model convergence pattern---23\% overlap between \gptfour and \claude, but only 5\% between \gptfour and \llama---suggests that convergence tracks training methodology more than model architecture. Both GPT and Claude undergo extensive RLHF, which \citet{beyond2026divergent} show shifts outputs toward ``appropriate'' (consensus) answers at the cost of novelty. \llama's greater independence may reflect differences in training data composition or alignment approach.
+
+\subsection{Practical Implications}
+
+These findings have direct consequences for three application areas:
+
+\para{Creative ideation.} LLMs used as brainstorming partners will systematically suggest the ``obvious'' novel ideas---the ones that have already been widely discussed. A startup founder asking an LLM for underrated market opportunities will receive the same suggestions that dominate business forums, not genuinely overlooked niches.
+
+\para{Recommendation systems.} LLM-powered recommendation will cluster around consensus picks. Our results show this is strongest in domains like food and sports (70\% Reddit overlap), where ``underrated'' items have well-established online presences---precisely the domains where recommendation systems are most deployed.
+
+\para{Cultural curation.} LLMs cannot serve as genuine tastemakers. The \noveltyparadox means that LLM-curated ``hidden gems'' lists will contain the same items across all platforms using LLM generation, accelerating the homogenization effect documented by \citet{padmakumar2024diversity} and \citet{anderson2024homogenization}.
+
+\subsection{Why Some Domains Show More Diversity}
+
+Literature (27.3\% Reddit overlap) shows far more diversity than food or sports (70\%). We hypothesize two contributing factors. First, literary knowledge is more heterogeneous in training data---there is no single dominant ``underrated poet'' in the way that rutabaga dominates ``underrated vegetable'' discussions. Second, literature categories may have longer tails of valid answers, making it harder for any single answer to dominate. This suggests that the \noveltyparadox is most severe in domains where online discourse has already converged on ``obvious'' underrated picks.
+
+\subsection{Limitations}
+\label{sec:limitations}
+
+\para{Reddit baseline circularity.} We use \gptfour to generate ``what Reddit would say'' rather than scraping actual Reddit data. This introduces potential circularity: the baseline itself may reflect LLM biases. However, this makes our test \textit{conservative}---if the baseline is LLM-biased, then high overlap indicates models are matching their own tendencies, which is itself evidence of monoculture.
+
+\para{Partial data for Qwen.} Only 116 of 400 planned responses were collected for \qwen due to inference speed constraints. Its higher diversity scores may partly reflect category sampling bias, as only 12 of 40 categories were covered.
+
+\para{Single prompt template.} We used only one phrasing (``What is the most underrated X?''). Different formulations (\eg ``Name something underrated in the X domain'') might elicit different diversity patterns.
+
+\para{No human baseline.} We lack direct comparison with human response diversity for the same questions. The Reddit proxy tests ``obvious vs.\ non-obvious'' but not ``diverse vs.\ non-diverse'' relative to a human population.
+
+\para{Fixed temperature.} We tested only temperature 1.0. While \citet{wu2024monoculture} and \citet{correlated2025errors} show that temperature changes are generally insufficient to overcome monoculture, a systematic temperature sweep would strengthen this claim for our specific task.
+
+\para{Answer normalization.} Some models occasionally provided explanations despite the constrained system prompt. Our normalization heuristics (first line extraction, article removal) may introduce small matching errors.

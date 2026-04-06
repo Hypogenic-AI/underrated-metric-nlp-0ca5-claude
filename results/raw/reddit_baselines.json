@@ -1,0 +1,442 @@
+[
+  {
+    "category": "rock band",
+    "obvious_underrated": [
+      "King Crimson",
+      "The Replacements",
+      "Big Star",
+      "Thin Lizzy",
+      "Electric Light Orchestra"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "jazz album",
+    "obvious_underrated": [
+      "Andrew Hill - Point of Departure",
+      "Herbie Nichols - The Prophetic Herbie Nichols Vol. 1 & 2",
+      "Wayne Shorter - The All Seeing Eye",
+      "Sam Rivers - Contours",
+      "Booker Little - Out Front"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "hip-hop producer",
+    "obvious_underrated": [
+      "Madlib",
+      "El-P",
+      "DJ Quik",
+      "No I.D.",
+      "9th Wonder"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "classical composer",
+    "obvious_underrated": [
+      "Nikolai Medtner",
+      "Mieczys\u0142aw Weinberg",
+      "Carl Nielsen",
+      "Alexander Scriabin",
+      "Franz Schmidt"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "singer-songwriter of the 2010s",
+    "obvious_underrated": [
+      "James Blake",
+      "Mitski",
+      "Father John Misty",
+      "Sufjan Stevens",
+      "Phoebe Bridgers"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "sci-fi movie",
+    "obvious_underrated": [
+      "Sunshine",
+      "Moon",
+      "Gattaca",
+      "Edge of Tomorrow",
+      "Dredd"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "horror film director",
+    "obvious_underrated": [
+      "Ti West",
+      "Mike Flanagan",
+      "Larry Fessenden",
+      "Karyn Kusama",
+      "Bob Clark"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "animated TV show",
+    "obvious_underrated": [
+      "The Owl House",
+      "Over the Garden Wall",
+      "Infinity Train",
+      "Sym-Bionic Titan",
+      "Final Space"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "documentary film",
+    "obvious_underrated": [
+      "American Movie",
+      "The King of Kong: A Fistful of Quarters",
+      "Dear Zachary: A Letter to a Son About His Father",
+      "Dark Days",
+      "The Imposter"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "film noir",
+    "obvious_underrated": [
+      "Night and the City",
+      "The Big Clock",
+      "Detour",
+      "In a Lonely Place",
+      "Pickup on South Street"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "novel of the 21st century",
+    "obvious_underrated": [
+      "Never Let Me Go by Kazuo Ishiguro",
+      "The Amazing Adventures of Kavalier & Clay by Michael Chabon",
+      "The Brief Wondrous Life of Oscar Wao by Junot D\u00edaz",
+      "A Visit from the Goon Squad by Jennifer Egan",
+      "The Shadow of the Wind by Carlos Ruiz Zaf\u00f3n"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "short story writer",
+    "obvious_underrated": [
+      "John Cheever",
+      "Lucia Berlin",
+      "Mavis Gallant",
+      "Robert Aickman",
+      "Jean Rhys"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "poet",
+    "obvious_underrated": [
+      "Philip Larkin",
+      "Mary Oliver",
+      "W. S. Merwin",
+      "Anne Carson",
+      "Louise Gl\u00fcck"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "non-fiction book",
+    "obvious_underrated": [
+      "The Emperor of All Maladies by Siddhartha Mukherjee",
+      "Surely You're Joking, Mr. Feynman! by Richard Feynman",
+      "The Gift of Fear by Gavin de Becker",
+      "Antifragile by Nassim Nicholas Taleb",
+      "The Righteous Mind by Jonathan Haidt"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "graphic novel",
+    "obvious_underrated": [
+      "Daytripper",
+      "The Underwater Welder",
+      "The Arrival",
+      "Blacksad",
+      "Asterios Polyp"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "cuisine",
+    "obvious_underrated": [
+      "Filipino",
+      "Peruvian",
+      "Ethiopian",
+      "Vietnamese",
+      "Turkish"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "vegetable",
+    "obvious_underrated": [
+      "cabbage",
+      "rutabaga",
+      "parsnip",
+      "brussels sprouts",
+      "kohlrabi"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "spice",
+    "obvious_underrated": [
+      "sumac",
+      "smoked paprika",
+      "fennel seeds",
+      "asafoetida",
+      "cardamom"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "cheese",
+    "obvious_underrated": [
+      "Havarti",
+      "Gruy\u00e8re",
+      "Comt\u00e9",
+      "Manchego",
+      "Jarlsberg"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "coffee brewing method",
+    "obvious_underrated": [
+      "AeroPress",
+      "Clever Dripper",
+      "Moka Pot",
+      "Siphon/Vacuum Pot",
+      "French Press"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "programming language",
+    "obvious_underrated": [
+      "Rust",
+      "Elixir",
+      "Julia",
+      "Lua",
+      "Clojure"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "scientific discovery",
+    "obvious_underrated": [
+      "CRISPR gene editing",
+      "The discovery of the microbiome",
+      "The Haber-Bosch process (synthetic ammonia production)",
+      "The discovery of penicillin/antibiotics",
+      "The Green Revolution (agricultural advancements)"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "mathematical theorem",
+    "obvious_underrated": [
+      "Banach-Tarski Paradox",
+      "Noether's Theorem",
+      "Brouwer Fixed Point Theorem",
+      "Cayley's Theorem",
+      "Burnside's Lemma"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "open-source software project",
+    "obvious_underrated": [
+      "mpv",
+      "Krita",
+      "qBittorrent",
+      "Syncthing",
+      "Gitea"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "invention of the 20th century",
+    "obvious_underrated": [
+      "Transistor",
+      "Shipping container",
+      "Barcode",
+      "Velcro",
+      "Duct tape"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "Olympic sport",
+    "obvious_underrated": [
+      "handball",
+      "table tennis",
+      "water polo",
+      "badminton",
+      "fencing"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "basketball player of all time",
+    "obvious_underrated": [
+      "Sidney Moncrief",
+      "Manu Gin\u00f3bili",
+      "Bernard King",
+      "Detlef Schrempf",
+      "Chauncey Billups"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "board game",
+    "obvious_underrated": [
+      "El Grande",
+      "Tigris & Euphrates",
+      "Concordia",
+      "Ra",
+      "The Crew: The Quest for Planet Nine"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "chess opening",
+    "obvious_underrated": [
+      "London System",
+      "Scandinavian Defense",
+      "Bird's Opening",
+      "English Opening",
+      "Czech Pirc"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "video game of the 2010s",
+    "obvious_underrated": [
+      "Spec Ops: The Line",
+      "Sleeping Dogs",
+      "Titanfall 2",
+      "Enslaved: Odyssey to the West",
+      "Alan Wake"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "city to visit in Europe",
+    "obvious_underrated": [
+      "Ljubljana",
+      "Porto",
+      "Budapest",
+      "Gdansk",
+      "Valencia"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "national park in the United States",
+    "obvious_underrated": [
+      "Great Basin National Park",
+      "North Cascades National Park",
+      "Isle Royale National Park",
+      "Lassen Volcanic National Park",
+      "Congaree National Park"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "country for solo travel",
+    "obvious_underrated": [
+      "Georgia",
+      "Slovenia",
+      "Taiwan",
+      "Portugal",
+      "Romania"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "island destination",
+    "obvious_underrated": [
+      "Isle of Eigg, Scotland",
+      "Ischia, Italy",
+      "Azores, Portugal",
+      "Koh Lipe, Thailand",
+      "Sao Miguel, Portugal"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "historical site",
+    "obvious_underrated": [
+      "Hampi, India",
+      "Petra, Jordan",
+      "Angkor Wat, Cambodia",
+      "Cappadocia, Turkey",
+      "The Alhambra, Spain"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "life skill to learn",
+    "obvious_underrated": [
+      "listening",
+      "emotional intelligence",
+      "critical thinking",
+      "communication",
+      "personal finance management"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "hobby for adults",
+    "obvious_underrated": [
+      "birdwatching",
+      "journaling",
+      "puzzle solving",
+      "gardening",
+      "tabletop role-playing games"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "era in human history",
+    "obvious_underrated": [
+      "The Islamic Golden Age",
+      "The Byzantine Empire",
+      "The Song Dynasty (China)",
+      "The Indus Valley Civilization",
+      "The Medieval Period (Middle Ages)"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "branch of philosophy",
+    "obvious_underrated": [
+      "Philosophy of language",
+      "Philosophy of mind",
+      "Aesthetics",
+      "Logic",
+      "Philosophy of science"
+    ],
+    "status": "success"
+  },
+  {
+    "category": "career path",
+    "obvious_underrated": [
+      "trade jobs (electrician, plumber, welder, HVAC technician)",
+      "radiologic technologist/medical imaging",
+      "dental hygienist",
+      "supply chain/logistics",
+      "occupational therapy assistant"
+    ],
+    "status": "success"
+  }
+]

@@ -1,0 +1,173 @@
+model,category,domain,difficulty,agreement_rate,top_answer,top_answer_count,unique_answers,total_runs
+claude-sonnet-4-5,Olympic sport,sports,easy,0.4,handball,4,3,10
+claude-sonnet-4-5,animated TV show,film,easy,0.8,clone high,8,2,10
+claude-sonnet-4-5,basketball player of all time,sports,easy,0.8,chauncey billups,8,3,10
+claude-sonnet-4-5,board game,sports,medium,0.5,concordia,5,3,10
+claude-sonnet-4-5,branch of philosophy,general,hard,1.0,philosophy of technology,10,1,10
+claude-sonnet-4-5,career path,general,easy,0.2,actuary,2,8,10
+claude-sonnet-4-5,cheese,food,medium,1.0,gruyère,10,1,10
+claude-sonnet-4-5,chess opening,sports,hard,0.8,london system,8,3,10
+claude-sonnet-4-5,city to visit in Europe,travel,easy,1.0,porto,10,1,10
+claude-sonnet-4-5,classical composer,music,easy,0.7,carl philipp emanuel bach,7,4,10
+claude-sonnet-4-5,coffee brewing method,food,medium,1.0,french press,10,1,10
+claude-sonnet-4-5,country for solo travel,travel,medium,0.5,albania,5,3,10
+claude-sonnet-4-5,cuisine,food,easy,0.6,ethiopian,6,3,10
+claude-sonnet-4-5,documentary film,film,medium,0.7,senna,7,3,10
+claude-sonnet-4-5,era in human history,general,medium,0.7,bronze age,7,2,10
+claude-sonnet-4-5,film noir,film,hard,0.7,third man,7,2,10
+claude-sonnet-4-5,graphic novel,literature,medium,0.8,daytripper,8,2,10
+claude-sonnet-4-5,hip-hop producer,music,medium,0.9,j dilla,9,2,10
+claude-sonnet-4-5,historical site,travel,medium,1.0,göbekli tepe,10,1,10
+claude-sonnet-4-5,hobby for adults,general,easy,1.0,birdwatching,10,1,10
+claude-sonnet-4-5,horror film director,film,medium,1.0,mike flanagan,10,1,10
+claude-sonnet-4-5,invention of the 20th century,tech,easy,0.6,transistor,6,2,10
+claude-sonnet-4-5,island destination,travel,medium,1.0,azores,10,1,10
+claude-sonnet-4-5,jazz album,music,medium,0.7,speak no evil by wayne shorter,7,3,10
+claude-sonnet-4-5,life skill to learn,general,easy,1.0,active listening,10,1,10
+claude-sonnet-4-5,mathematical theorem,tech,hard,0.5,cayley-hamilton theorem,5,5,10
+claude-sonnet-4-5,national park in the United States,travel,medium,1.0,great basin national park,10,1,10
+claude-sonnet-4-5,non-fiction book,literature,medium,0.6,discoverers by daniel j. boorstin,6,5,10
+claude-sonnet-4-5,novel of the 21st century,literature,medium,0.4,luminaries by eleanor catton,4,4,10
+claude-sonnet-4-5,open-source software project,tech,medium,0.4,rsync,4,4,10
+claude-sonnet-4-5,poet,literature,easy,0.7,gerard manley hopkins,7,2,10
+claude-sonnet-4-5,programming language,tech,easy,0.5,elixir,5,4,10
+claude-sonnet-4-5,rock band,music,easy,1.0,big star,10,1,10
+claude-sonnet-4-5,sci-fi movie,film,easy,1.0,gattaca,10,1,10
+claude-sonnet-4-5,scientific discovery,tech,medium,0.2,discovery of telomerase and telomeres' role in aging,2,8,10
+claude-sonnet-4-5,short story writer,literature,medium,0.6,shirley jackson,6,4,10
+claude-sonnet-4-5,singer-songwriter of the 2010s,music,medium,0.6,julien baker,6,2,10
+claude-sonnet-4-5,spice,food,medium,0.7,sumac,7,2,10
+claude-sonnet-4-5,vegetable,food,easy,0.4,rutabaga,4,3,10
+claude-sonnet-4-5,video game of the 2010s,sports,medium,1.0,titanfall 2,10,1,10
+gemini-2.0-flash,Olympic sport,sports,easy,0.6,racewalking,6,2,10
+gemini-2.0-flash,animated TV show,film,easy,0.6,owl house,6,4,10
+gemini-2.0-flash,basketball player of all time,sports,easy,0.9,sidney moncrief,9,2,10
+gemini-2.0-flash,board game,sports,medium,0.6,go,6,5,10
+gemini-2.0-flash,branch of philosophy,general,hard,0.8,philosophy of technology,8,2,10
+gemini-2.0-flash,career path,general,easy,1.0,tradesperson,10,1,10
+gemini-2.0-flash,cheese,food,medium,0.5,havarti,5,5,10
+gemini-2.0-flash,chess opening,sports,hard,0.4,scotch game,4,4,10
+gemini-2.0-flash,city to visit in Europe,travel,easy,0.9,turin,9,2,10
+gemini-2.0-flash,classical composer,music,easy,0.7,anton bruckner,7,4,10
+gemini-2.0-flash,coffee brewing method,food,medium,0.9,moka pot,9,2,10
+gemini-2.0-flash,country for solo travel,travel,medium,1.0,georgia,10,1,10
+gemini-2.0-flash,cuisine,food,easy,0.8,peruvian,8,2,10
+gemini-2.0-flash,documentary film,film,medium,0.4,sherman's march,4,6,10
+gemini-2.0-flash,era in human history,general,medium,0.8,late bronze age collapse,8,3,10
+gemini-2.0-flash,film noir,film,hard,0.5,night and the city,5,5,10
+gemini-2.0-flash,graphic novel,literature,medium,0.6,from hell,6,2,10
+gemini-2.0-flash,hip-hop producer,music,medium,0.9,madlib,9,2,10
+gemini-2.0-flash,historical site,travel,medium,0.9,göbekli tepe,9,2,10
+gemini-2.0-flash,hobby for adults,general,easy,0.8,genealogy,8,3,10
+gemini-2.0-flash,horror film director,film,medium,0.9,mike flanagan,9,2,10
+gemini-2.0-flash,invention of the 20th century,tech,easy,0.4,internet,4,5,10
+gemini-2.0-flash,island destination,travel,medium,1.0,dominica,10,1,10
+gemini-2.0-flash,jazz album,music,medium,0.7,moanin' in the moonlight,7,2,10
+gemini-2.0-flash,life skill to learn,general,easy,1.0,active listening,10,1,10
+gemini-2.0-flash,mathematical theorem,tech,hard,0.3,banach-tarski theorem,3,6,10
+gemini-2.0-flash,national park in the United States,travel,medium,0.9,great basin national park,9,2,10
+gemini-2.0-flash,non-fiction book,literature,medium,0.4,short history of nearly everything,4,6,10
+gemini-2.0-flash,novel of the 21st century,literature,medium,1.0,cloud atlas,10,1,10
+gemini-2.0-flash,open-source software project,tech,medium,0.4,syncthing,4,6,10
+gemini-2.0-flash,poet,literature,easy,0.8,edna st. vincent millay,8,3,10
+gemini-2.0-flash,programming language,tech,easy,0.9,forth,9,2,10
+gemini-2.0-flash,rock band,music,easy,1.0,big star,10,1,10
+gemini-2.0-flash,sci-fi movie,film,easy,0.9,gattaca,9,2,10
+gemini-2.0-flash,scientific discovery,tech,medium,0.4,bacteriophages,4,6,10
+gemini-2.0-flash,short story writer,literature,medium,1.0,ted chiang,10,1,10
+gemini-2.0-flash,singer-songwriter of the 2010s,music,medium,0.9,frank ocean,9,2,10
+gemini-2.0-flash,spice,food,medium,0.6,grains of paradise,6,2,10
+gemini-2.0-flash,vegetable,food,easy,0.5,turnip,5,2,10
+gemini-2.0-flash,video game of the 2010s,sports,medium,1.0,spec ops: the line,10,1,10
+gpt-4.1,Olympic sport,sports,easy,0.8,handball,8,2,10
+gpt-4.1,animated TV show,film,easy,0.9,over the garden wall,9,2,10
+gpt-4.1,basketball player of all time,sports,easy,1.0,sidney moncrief,10,1,10
+gpt-4.1,board game,sports,medium,1.0,tigris & euphrates,10,1,10
+gpt-4.1,branch of philosophy,general,hard,0.5,philosophy of technology,5,4,10
+gpt-4.1,career path,general,easy,0.6,library science,6,3,10
+gpt-4.1,cheese,food,medium,0.4,comté,4,5,10
+gpt-4.1,chess opening,sports,hard,0.5,london system,5,4,10
+gpt-4.1,city to visit in Europe,travel,easy,0.7,ljubljana,7,4,10
+gpt-4.1,classical composer,music,easy,0.5,nikolai medtner,5,4,10
+gpt-4.1,coffee brewing method,food,medium,1.0,aeropress,10,1,10
+gpt-4.1,country for solo travel,travel,medium,0.6,georgia,6,2,10
+gpt-4.1,cuisine,food,easy,0.8,filipino cuisine,8,2,10
+gpt-4.1,documentary film,film,medium,0.5,king of kong: a fistful of quarters,5,3,10
+gpt-4.1,era in human history,general,medium,1.0,islamic golden age,10,1,10
+gpt-4.1,film noir,film,hard,0.4,night and the city,4,3,10
+gpt-4.1,graphic novel,literature,medium,1.0,daytripper,10,1,10
+gpt-4.1,hip-hop producer,music,medium,0.5,nujabes,5,5,10
+gpt-4.1,historical site,travel,medium,0.4,hampi,4,4,10
+gpt-4.1,hobby for adults,general,easy,0.5,birdwatching,5,3,10
+gpt-4.1,horror film director,film,medium,0.8,ti west,8,3,10
+gpt-4.1,invention of the 20th century,tech,easy,0.4,ballpoint pen,4,4,10
+gpt-4.1,island destination,travel,medium,0.5,ischia,5,5,10
+gpt-4.1,jazz album,music,medium,0.5,out to lunch!,5,3,10
+gpt-4.1,life skill to learn,general,easy,1.0,active listening,10,1,10
+gpt-4.1,mathematical theorem,tech,hard,0.4,banach–tarski paradox,4,6,10
+gpt-4.1,national park in the United States,travel,medium,1.0,great basin national park,10,1,10
+gpt-4.1,non-fiction book,literature,medium,0.2,emperor of all maladies,2,8,10
+gpt-4.1,novel of the 21st century,literature,medium,1.0,never let me go,10,1,10
+gpt-4.1,open-source software project,tech,medium,0.5,gimp,5,3,10
+gpt-4.1,poet,literature,easy,0.3,h.d. (hilda doolittle),3,6,10
+gpt-4.1,programming language,tech,easy,0.7,elixir,7,3,10
+gpt-4.1,rock band,music,easy,0.4,king's x,4,3,10
+gpt-4.1,sci-fi movie,film,easy,0.4,moon,4,3,10
+gpt-4.1,scientific discovery,tech,medium,0.9,crispr-cas9,9,2,10
+gpt-4.1,short story writer,literature,medium,0.4,mavis gallant,4,7,10
+gpt-4.1,singer-songwriter of the 2010s,music,medium,0.4,julia jacklin,4,6,10
+gpt-4.1,spice,food,medium,1.0,sumac,10,1,10
+gpt-4.1,vegetable,food,easy,0.7,kohlrabi,7,2,10
+gpt-4.1,video game of the 2010s,sports,medium,0.8,spec ops: the line,8,3,10
+llama-4-maverick,Olympic sport,sports,easy,0.4,water polo,4,4,10
+llama-4-maverick,animated TV show,film,easy,0.3,venture bros.,3,6,10
+llama-4-maverick,basketball player of all time,sports,easy,0.6,dennis johnson,6,4,10
+llama-4-maverick,board game,sports,medium,0.4,el grande,4,5,10
+llama-4-maverick,branch of philosophy,general,hard,1.0,mereology,10,1,10
+llama-4-maverick,career path,general,easy,0.9,actuary,9,2,10
+llama-4-maverick,cheese,food,medium,0.6,gjetost,6,3,10
+llama-4-maverick,chess opening,sports,hard,0.9,scotch game,9,2,10
+llama-4-maverick,city to visit in Europe,travel,easy,0.5,plovdiv,5,3,10
+llama-4-maverick,classical composer,music,easy,0.6,carl nielsen,6,3,10
+llama-4-maverick,coffee brewing method,food,medium,0.4,clevespresso,4,4,10
+llama-4-maverick,country for solo travel,travel,medium,1.0,slovenia,10,1,10
+llama-4-maverick,cuisine,food,easy,0.9,georgian,9,2,10
+llama-4-maverick,documentary film,film,medium,0.9,imposter,9,2,10
+llama-4-maverick,era in human history,general,medium,1.0,hellenistic period,10,1,10
+llama-4-maverick,film noir,film,hard,0.9,out of the past,9,2,10
+llama-4-maverick,graphic novel,literature,medium,0.3,black hole,3,6,10
+llama-4-maverick,hip-hop producer,music,medium,1.0,j dilla,10,1,10
+llama-4-maverick,historical site,travel,medium,0.4,cahokia mounds,4,3,10
+llama-4-maverick,hobby for adults,general,easy,1.0,taxidermy,10,1,10
+llama-4-maverick,horror film director,film,medium,0.7,lucio fulci,7,2,10
+llama-4-maverick,invention of the 20th century,tech,easy,0.3,nyquil,3,7,10
+llama-4-maverick,island destination,travel,medium,0.4,grenada,4,6,10
+llama-4-maverick,jazz album,music,medium,0.6,black saint and the sinner lady,6,5,10
+llama-4-maverick,life skill to learn,general,easy,0.7,conflict resolution,7,3,10
+llama-4-maverick,mathematical theorem,tech,hard,0.7,burnside's lemma,7,3,10
+llama-4-maverick,national park in the United States,travel,medium,0.5,north cascades,5,3,10
+llama-4-maverick,non-fiction book,literature,medium,0.9,denial of death,9,2,10
+llama-4-maverick,novel of the 21st century,literature,medium,0.7,wind-up bird chronicle,7,3,10
+llama-4-maverick,open-source software project,tech,medium,0.6,ffmpeg,6,4,10
+llama-4-maverick,poet,literature,easy,0.6,rainer maria rilke,6,5,10
+llama-4-maverick,programming language,tech,easy,0.8,haskell,8,3,10
+llama-4-maverick,rock band,music,easy,0.7,tame impala,7,2,10
+llama-4-maverick,sci-fi movie,film,easy,1.0,existenz,10,1,10
+llama-4-maverick,scientific discovery,tech,medium,0.6,brownian motion,6,3,10
+llama-4-maverick,short story writer,literature,medium,0.8,shirley jackson,8,3,10
+llama-4-maverick,singer-songwriter of the 2010s,music,medium,0.4,lucy dacus,4,4,10
+llama-4-maverick,spice,food,medium,0.4,grains of paradise,4,4,10
+llama-4-maverick,vegetable,food,easy,1.0,rutabaga,10,1,10
+llama-4-maverick,video game of the 2010s,sports,medium,0.4,hyper light drifter,4,6,10
+qwen3-235b,animated TV show,film,easy,0.4,samurai jack,4,6,10
+qwen3-235b,classical composer,music,easy,0.4,charles-valentin alkan,4,6,10
+qwen3-235b,documentary film,film,medium,0.6,dark days,6,4,10
+qwen3-235b,film noir,film,hard,0.7,detour,7,4,10
+qwen3-235b,hip-hop producer,music,medium,0.4,madlib,4,5,10
+qwen3-235b,horror film director,film,medium,0.7,stuart gordon,7,3,10
+qwen3-235b,jazz album,music,medium,0.3,point of departure,3,8,10
+qwen3-235b,novel of the 21st century,literature,medium,0.4,gone-away world,4,5,10
+qwen3-235b,rock band,music,easy,0.4,big star,4,7,10
+qwen3-235b,sci-fi movie,film,easy,0.7,dark city,7,4,10
+qwen3-235b,short story writer,literature,medium,0.8333333333333334,lucia berlin,5,2,6
+qwen3-235b,singer-songwriter of the 2010s,music,medium,0.2,laura marling,2,9,10

@@ -1,0 +1,174 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Intra-Model Agreement}
+\label{sec:intra}
+
+\Tabref{tab:intra} reports the mean intra-model agreement rate across 40 categories. All five models show agreement rates far above the ${\sim}10\%$ expected under uniform random answering, confirming that models have strong, consistent preferences for particular ``underrated'' answers.
+
+\begin{table}[t]
+    \centering
+    \caption{Intra-model agreement rates across 40 categories (10 runs each). Agreement rate is the fraction of runs producing the most common answer. Higher values indicate less diversity. All models significantly exceed the ${\sim}10\%$ chance baseline ($t(191) = 31.63$, $p < 0.0001$, Cohen's $d = 2.42$).}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        \textbf{Model} & \textbf{Mean Agreement (\%)} & \textbf{Std} & \textbf{Mean Unique (of 10)} \\
+        \midrule
+        Gemini 2.0 Flash & \textbf{74.0} & 22.5 & 2.8 \\
+        Claude Sonnet 4.5 & 72.5 & 24.3 & 2.6 \\
+        Llama 4 Maverick & 67.0 & 23.8 & 3.2 \\
+        GPT-4.1 & 64.8 & 24.9 & 3.2 \\
+        Qwen3-235B & 50.3 & 19.6 & 5.3 \\
+        \midrule
+        \textit{Overall mean} & \textit{68.2} & & \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:intra}
+\end{table}
+
+Several patterns stand out. \claude gave exactly the same answer in all 10 runs for 13 of 40 categories---for example, ``Gruy\`{e}re'' for most underrated cheese, ``Porto'' for European city, and ``Philosophy of Technology'' for branch of philosophy. \gptfour produced ``Sidney Moncrief'' for most underrated basketball player in 10 out of 10 runs. In contrast, \qwen never gave the same answer for all 10 runs in any category, producing on average 5.3 unique answers per category.
+
+The overall agreement rate of 68.2\% is significantly above the 10\% chance baseline: $t(191) = 31.63$, $p < 0.0001$, with a large effect size of Cohen's $d = 2.42$. This confirms that high self-agreement is not an artifact of occasional convergence but a systematic property of LLM responses to subjective questions.
+
+\subsection{Cross-Model Convergence}
+\label{sec:cross}
+
+\Tabref{tab:cross} shows the fraction of categories where each pair of models shares the same top answer. If models were drawing from independent distributions, we would expect near-zero overlap on open-ended subjective questions with hundreds of valid answers.
+
+\begin{table}[t]
+    \centering
+    \caption{Cross-model top answer overlap: fraction of 40 categories where both models' most frequent answer is the same entity.}
+    \begin{tabular}{@{}lcccc@{}}
+        \toprule
+        & \textbf{Claude} & \textbf{Gemini} & \textbf{Llama} \\
+        \midrule
+        GPT-4.1 & \textbf{23\%} & 17\% & 5\% \\
+        Claude Sonnet 4.5 & --- & 17\% & 10\% \\
+        Gemini 2.0 Flash & & --- & 5\% \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:cross}
+\end{table}
+
+\gptfour and \claude show the highest cross-family agreement at 23\%, suggesting shared training data biases or similar RLHF alignment pressures. \llama is the most independent, agreeing with other models only 5--10\% of the time. This pattern is consistent with findings from \citet{correlated2025errors} that monoculture is stronger within similar training paradigms.
+
+\subsection{The Novelty Paradox}
+\label{sec:paradox}
+
+\Tabref{tab:paradox} shows categories with the highest \nps---where multiple models converge on the same ``underrated'' answer.
+
+\begin{table}[t]
+    \centering
+    \caption{Categories with the highest \noveltyparadox Scores (NPS). NPS measures the fraction of models whose top answer is the same entity. Higher scores indicate greater cross-model consensus on a single ``underrated'' pick, paradoxically making it the popular choice.}
+    \begin{tabular}{@{}llcc@{}}
+        \toprule
+        \textbf{Category} & \textbf{Consensus Answer} & \textbf{Models} & \textbf{NPS} \\
+        \midrule
+        Branch of philosophy & Philosophy of Technology & 3/4 & \textbf{0.75} \\
+        National park (US) & Great Basin & 3/4 & \textbf{0.75} \\
+        Life skill & Active Listening & 3/4 & \textbf{0.75} \\
+        Rock band & Big Star & 3/5 & 0.60 \\
+        Chess opening & London System & 2/4 & 0.50 \\
+        Olympic sport & Handball & 2/4 & 0.50 \\
+        Vegetable & Rutabaga & 2/4 & 0.50 \\
+        Programming language & Elixir & 2/4 & 0.50 \\
+        Hobby for adults & Birdwatching & 2/4 & 0.50 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:paradox}
+\end{table}
+
+The mean NPS across all 40 categories is $0.383 \pm 0.162$. While no category achieved unanimous consensus (NPS = 1.0), 4 categories exceeded 0.60 and 15 exceeded 0.40. The paradox is clearest in categories like ``branch of philosophy,'' where 3 of 4 models independently name ``Philosophy of Technology''---making it the \textit{consensus} underrated pick, not a genuinely surprising one.
+
+\subsection{Reddit Baseline Comparison}
+\label{sec:reddit_results}
+
+\Tabref{tab:reddit} compares each model's top answers against Reddit-sourced ``obvious underrated'' picks.
+
+\begin{table}[t]
+    \centering
+    \caption{Reddit overlap rate: fraction of each model's top answers (across 40 categories) that match commonly cited ``underrated'' picks from Reddit/web forums. Higher values indicate less novelty.}
+    \begin{tabular}{@{}lcc@{}}
+        \toprule
+        \textbf{Model} & \textbf{Reddit Match (\%)} & \textbf{Matches / Categories} \\
+        \midrule
+        GPT-4.1 & \textbf{75.0} & 30/40 \\
+        Claude Sonnet 4.5 & 60.0 & 24/40 \\
+        Qwen3-235B & 50.0 & 6/12 \\
+        Gemini 2.0 Flash & 42.5 & 17/40 \\
+        Llama 4 Maverick & 20.0 & 8/40 \\
+        \midrule
+        \textit{Overall} & \textit{49.4} & \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:reddit}
+\end{table}
+
+\gptfour matches Reddit consensus for 75\% of categories---three in four of its ``underrated'' picks are the same answers that dominate online discussion threads. \llama is the most independent at 20\%. The overall rate of 49.4\% means that roughly half of all LLM top answers are ``obviously underrated'' picks rather than genuinely novel selections.
+
+\para{Domain analysis.} \Tabref{tab:domain} breaks down Reddit overlap by domain. Food and Sports show the highest overlap (70\%), likely because these domains have well-known ``underrated'' picks that dominate online discussions (\eg ``rutabaga'' for vegetables). Literature shows the lowest overlap (27.3\%), suggesting more genuine diversity in knowledge-rich, long-tail domains.
+
+\begin{table}[t]
+    \centering
+    \caption{Reddit overlap rate by domain, averaged across all models with full data. Domains with well-known ``obvious underrated'' picks show higher overlap.}
+    \begin{tabular}{@{}lc@{}}
+        \toprule
+        \textbf{Domain} & \textbf{Reddit Match (\%)} \\
+        \midrule
+        Food & \textbf{70.0} \\
+        Sports & \textbf{70.0} \\
+        Travel & 60.0 \\
+        Film & 56.0 \\
+        General & 45.0 \\
+        Music & 36.0 \\
+        Tech & 35.0 \\
+        Literature & 27.3 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:domain}
+\end{table}
+
+\subsection{Semantic Diversity}
+\label{sec:semantic}
+
+\Tabref{tab:semantic} reports mean pairwise cosine distance between sentence embeddings of each model's responses. The ranking is consistent with agreement rate findings: \claude shows the lowest semantic diversity (0.480), while \qwen shows the highest (0.797).
+
+\begin{table}[t]
+    \centering
+    \caption{Mean pairwise semantic distance (cosine distance of all-MiniLM-L6-v2 embeddings) across each model's 10 responses per category, averaged over categories. Higher values indicate greater semantic diversity.}
+    \begin{tabular}{@{}lc@{}}
+        \toprule
+        \textbf{Model} & \textbf{Mean Semantic Distance} \\
+        \midrule
+        Qwen3-235B & \textbf{0.797} \\
+        Llama 4 Maverick & 0.590 \\
+        Gemini 2.0 Flash & 0.564 \\
+        GPT-4.1 & 0.536 \\
+        Claude Sonnet 4.5 & 0.480 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:semantic}
+\end{table}
+
+\subsection{Qualitative Examples}
+\label{sec:examples}
+
+\Tabref{tab:examples} illustrates the convergence pattern with specific categories. For ``basketball player,'' three of four models pick from a narrow pool of well-known ``underrated'' players (Sidney Moncrief appears in both \gptfour and \gemini top picks, and in the Reddit baseline). For ``cheese,'' \claude produces ``Gruy\`{e}re'' in all 10 runs---the same answer that tops Reddit discussions.
+
+\begin{table}[t]
+    \centering
+    \caption{Illustrative examples of high-convergence categories. For each model, we show the top answer and its frequency (out of 10 runs). Reddit picks are the top 3 commonly cited ``underrated'' answers. Bold indicates a match with Reddit.}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lllllp{4.2cm}@{}}
+        \toprule
+        \textbf{Category} & \textbf{Claude} & \textbf{GPT-4.1} & \textbf{Gemini} & \textbf{Llama} & \textbf{Reddit Top 3} \\
+        \midrule
+        Basketball player & Billups (8/10) & \textbf{Moncrief} (10/10) & \textbf{Moncrief} (9/10) & D.\ Johnson (6/10) & Sabonis, Rodman, \textbf{Moncrief} \\
+        Animated TV & Clone High (8/10) & \textbf{Garden Wall} (9/10) & Owl House (6/10) & Venture Bros.\ (3/10) & \textbf{Garden Wall}, Gargoyles, Venture Bros. \\
+        Cheese & \textbf{Gruy\`{e}re} (10/10) & Comt\'{e} (4/10) & \textbf{Havarti} (5/10) & Gjetost (6/10) & \textbf{Gruy\`{e}re}, Manchego, \textbf{Havarti} \\
+        \bottomrule
+    \end{tabular}
+    }
+    \label{tab:examples}
+\end{table}
+
+In contrast, categories like ``poet'' and ``singer-songwriter'' show genuine diversity: \claude picks Gerard Manley Hopkins, \gptfour picks H.D., \gemini picks Edna St.\ Vincent Millay, and \llama picks Rainer Maria Rilke---four distinct, defensible answers from four different literary traditions.
